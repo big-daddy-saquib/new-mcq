@@ -4,9 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MCQ Dashboard</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/nav.css">
-<link rel="stylesheet" href="css/bottomnav.css">
 <link rel="stylesheet" href="css/general.css">
 <style>
 /* General body styles */
@@ -154,7 +151,7 @@ subjects.forEach(sub=>{
   </a>
   <a href="notes.html" class="nav-item" data-page="notes">
     <img src="icons/tests.png" data-inactive="icons/tests.png" data-active="icons/testsactive.png">
-    <span>Tests</span>
+    <span>Notes</span>
     <div class="indicator"></div>
   </a>
   <a href="lectures.html" class="nav-item" data-page="lectures">
@@ -164,7 +161,7 @@ subjects.forEach(sub=>{
   </a>
 </div>
 
-<script src="script/navbottom.js"></script>
-<script src="script/general.js"></script>
+<script src="script/navbottom.js" defer></script>
+<script src="script/general.js" defer></script>
 </body>
 </html>
