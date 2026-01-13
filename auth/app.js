@@ -80,7 +80,7 @@ function showLoaderThenRedirect() {
   main.classList.add("hidden");
   loader.classList.remove("hidden");
   setTimeout(() => {
-    window.location.href = "home.html"; // Replace with your home page
+    window.location.href = "../main.html"; // Replace with your home page
   }, 2000);
 }
 
