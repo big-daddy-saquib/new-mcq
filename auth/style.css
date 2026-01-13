@@ -77,9 +77,10 @@ button:hover{background: linear-gradient(45deg,#a777e3,#6e8efb);}
   background:#fff;
   border-radius:20px;
   box-shadow:0 10px 30px rgba(0,0,0,0.2);
-  padding:30px;
-  margin-left: 20px;
-  width:90%;
+  padding:10px;
+  padding-top:100px;
+  margin-left: 10px;
+  width:95%;
   max-width:400px;
   text-align:center;
   height:730px
