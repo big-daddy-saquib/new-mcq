@@ -1,0 +1,125 @@
+{
+  "subjects": [
+    {
+      "title": "Cardiology",
+      "description": "Study of the heart and circulatory system.",
+      "detailed_explanation": "Cardiology focuses on heart diseases, blood vessels, and the management of cardiac disorders.",
+      "topics": [
+        {
+          "title": "Coronary Artery Disease",
+          "description": "Disease caused by the narrowing or blockage of coronary arteries leading to reduced blood flow to the heart.",
+          "detailed_explanation": "Coronary artery disease (CAD) is the most common type of heart disease. It occurs when the coronary arteries are narrowed due to atherosclerosis, leading to decreased oxygen supply to the myocardium, potentially causing angina, myocardial infarction, or sudden cardiac death.",
+          "subtopics": [
+            {
+              "title": "Etiology / Causes",
+              "description": "Factors leading to the development of CAD.",
+              "detailed_explanation": "Major causes include atherosclerosis due to lipid deposition, hypertension, diabetes mellitus, smoking, obesity, sedentary lifestyle, and genetic predisposition.",
+              "notes": [
+                "Atherosclerosis: buildup of plaques in coronary arteries",
+                "Risk factors: hypertension, diabetes, smoking, obesity",
+                "Family history increases risk"
+              ],
+              "images": [
+                {
+                  "url": "images/plaque.jpg",
+                  "caption": "Plaque buildup in coronary artery"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.youtube.com/embed/abcd1234",
+                  "caption": "CAD Pathophysiology Explained"
+                }
+              ]
+            },
+            {
+              "title": "Pathophysiology",
+              "description": "How CAD affects the heart.",
+              "detailed_explanation": "Reduced blood flow from narrowed arteries causes myocardial ischemia. Chronic ischemia leads to left ventricular dysfunction, arrhythmias, and possible heart failure. Plaque rupture can trigger acute myocardial infarction.",
+              "notes": [
+                "Myocardial ischemia: insufficient oxygen delivery",
+                "Plaque rupture can cause acute MI",
+                "Chronic ischemia leads to heart failure"
+              ],
+              "images": [
+                {
+                  "url": "images/CAD-AND-MI-CORONARY-.webp",
+                  "caption": "Effects of CAD on myocardium"
+                }
+              ]
+            },
+            {
+              "title": "Clinical Features",
+              "description": "Symptoms and signs of CAD.",
+              "detailed_explanation": "Most common symptom is angina pectoris (chest pain on exertion). Other features include dyspnea, fatigue, palpitations, diaphoresis, and sometimes silent ischemia in diabetics.",
+              "notes": [
+                "Angina: chest pain relieved by rest or nitroglycerin",
+                "Dyspnea on exertion",
+                "Silent ischemia possible in diabetes"
+              ]
+            },
+            {
+              "title": "Diagnosis",
+              "description": "How CAD is detected.",
+              "detailed_explanation": "Diagnosis involves history, physical examination, ECG changes, stress testing, echocardiography, coronary angiography, and laboratory markers like troponins.",
+              "notes": [
+                "ECG shows ST-T changes",
+                "Stress test detects inducible ischemia",
+                "Troponins elevated in myocardial infarction"
+              ],
+              "images": [
+                {
+                  "url": "images/cad_ecg.png",
+                  "caption": "ECG showing CAD changes"
+                }
+              ]
+            },
+            {
+              "title": "Management / Treatment",
+              "description": "Approach to CAD management.",
+              "detailed_explanation": "Management includes lifestyle modification, pharmacological therapy (antiplatelets, statins, beta-blockers, ACE inhibitors), and revascularization procedures (PCI or CABG) in severe cases.",
+              "notes": [
+                "Lifestyle: diet, exercise, smoking cessation",
+                "Medications: aspirin, statins, beta-blockers",
+                "Revascularization: PCI or CABG if indicated"
+              ],
+              "images": [
+                {
+                  "url": "images/cad_treatment.png",
+                  "caption": "Treatment options for CAD"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.youtube.com/embed/efgh5678",
+                  "caption": "CAD Management Strategies"
+                }
+              ]
+            },
+            {
+              "title": "Complications",
+              "description": "Possible consequences if untreated.",
+              "detailed_explanation": "Complications include myocardial infarction, heart failure, arrhythmias, sudden cardiac death, and angina progression.",
+              "notes": [
+                "Acute myocardial infarction",
+                "Heart failure",
+                "Life-threatening arrhythmias"
+              ]
+            },
+            {
+              "title": "Prevention",
+              "description": "How to reduce risk of CAD.",
+              "detailed_explanation": "Primary prevention includes controlling risk factors: healthy diet, regular exercise, blood pressure and glucose control, avoiding smoking, and lipid management.",
+              "notes": [
+                "Maintain healthy weight and diet",
+                "Exercise regularly",
+                "Control BP, diabetes, and cholesterol",
+                "Avoid tobacco"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

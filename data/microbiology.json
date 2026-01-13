@@ -1,0 +1,534 @@
+{
+  "title": "General Microbiology and Bacteriology",
+  "topics": [
+    {
+      "title": "Basic Microbiological Tools and Techniques",
+      "mcqs": [
+        {
+          "question": "The resolving power of a microscope depends mainly on",
+          "options": [
+            { "text": "Magnification", "correct": false },
+            { "text": "Numerical aperture", "correct": true },
+            { "text": "Light intensity", "correct": false },
+            { "text": "Eyepiece lens", "correct": false }
+          ],
+          "explanation": "Resolving power is determined by numerical aperture and wavelength of light."
+        },
+        {
+          "question": "Oil immersion objective has magnification of",
+          "options": [
+            { "text": "40x", "correct": false },
+            { "text": "60x", "correct": false },
+            { "text": "100x", "correct": true },
+            { "text": "400x", "correct": false }
+          ],
+          "explanation": "Oil immersion lens provides 100x magnification."
+        },
+        {
+          "question": "Dark field microscopy is best used to visualize",
+          "options": [
+            { "text": "Staphylococcus", "correct": false },
+            { "text": "Mycobacterium", "correct": false },
+            { "text": "Treponema pallidum", "correct": true },
+            { "text": "E coli", "correct": false }
+          ],
+          "explanation": "Thin spirochetes are best seen under dark field microscopy."
+        },
+        {
+          "question": "Gram stain differentiates bacteria based on",
+          "options": [
+            { "text": "Cell membrane", "correct": false },
+            { "text": "Cell wall composition", "correct": true },
+            { "text": "Capsule", "correct": false },
+            { "text": "Flagella", "correct": false }
+          ],
+          "explanation": "Thickness of peptidoglycan layer determines Gram reaction."
+        },
+        {
+          "question": "Primary stain in Gram staining is",
+          "options": [
+            { "text": "Safranin", "correct": false },
+            { "text": "Crystal violet", "correct": true },
+            { "text": "Iodine", "correct": false },
+            { "text": "Alcohol", "correct": false }
+          ],
+          "explanation": "Crystal violet is the primary stain."
+        },
+        {
+          "question": "Acid fast staining is useful for",
+          "options": [
+            { "text": "Streptococci", "correct": false },
+            { "text": "Mycobacteria", "correct": true },
+            { "text": "Clostridia", "correct": false },
+            { "text": "Neisseria", "correct": false }
+          ],
+          "explanation": "Mycolic acid makes bacteria acid fast."
+        },
+        {
+          "question": "Negative staining is mainly used to demonstrate",
+          "options": [
+            { "text": "Spores", "correct": false },
+            { "text": "Capsule", "correct": true },
+            { "text": "Flagella", "correct": false },
+            { "text": "Cell wall", "correct": false }
+          ],
+          "explanation": "Capsules appear as clear halos in negative staining."
+        },
+        {
+          "question": "Electron microscopy is mainly used to study",
+          "options": [
+            { "text": "Live bacteria", "correct": false },
+            { "text": "Bacterial ultrastructure", "correct": true },
+            { "text": "Motility", "correct": false },
+            { "text": "Culture characteristics", "correct": false }
+          ],
+          "explanation": "Electron microscopy provides ultrastructural details."
+        },
+        {
+          "question": "Fluorescence microscopy commonly uses",
+          "options": [
+            { "text": "Ziehl Neelsen stain", "correct": false },
+            { "text": "Auramine rhodamine stain", "correct": true },
+            { "text": "India ink", "correct": false },
+            { "text": "Safranin", "correct": false }
+          ],
+          "explanation": "Auramine rhodamine is used for fluorescent detection of AFB."
+        },
+        {
+          "question": "Phase contrast microscopy is useful for observing",
+          "options": [
+            { "text": "Dead bacteria", "correct": false },
+            { "text": "Stained specimens", "correct": false },
+            { "text": "Live unstained cells", "correct": true },
+            { "text": "Spores only", "correct": false }
+          ],
+          "explanation": "Phase contrast allows visualization of live unstained cells."
+        }
+      ]
+    },
+
+    {
+      "title": "Bacterial Structure, Classification, and Identification",
+      "mcqs": [
+        {
+          "question": "Bacterial cell wall is absent in",
+          "options": [
+            { "text": "Mycoplasma", "correct": true },
+            { "text": "Mycobacterium", "correct": false },
+            { "text": "Chlamydia", "correct": false },
+            { "text": "Rickettsia", "correct": false }
+          ],
+          "explanation": "Mycoplasma lacks a cell wall."
+        },
+        {
+          "question": "Capsule is an important virulence factor because it",
+          "options": [
+            { "text": "Helps in motility", "correct": false },
+            { "text": "Prevents phagocytosis", "correct": true },
+            { "text": "Helps in staining", "correct": false },
+            { "text": "Produces toxins", "correct": false }
+          ],
+          "explanation": "Capsules protect bacteria from phagocytosis."
+        },
+        {
+          "question": "Flagella are responsible for",
+          "options": [
+            { "text": "Adhesion", "correct": false },
+            { "text": "Motility", "correct": true },
+            { "text": "Toxin production", "correct": false },
+            { "text": "Resistance", "correct": false }
+          ],
+          "explanation": "Flagella enable bacterial movement."
+        },
+        {
+          "question": "Endospores are produced by",
+          "options": [
+            { "text": "Staphylococcus", "correct": false },
+            { "text": "Bacillus", "correct": true },
+            { "text": "E coli", "correct": false },
+            { "text": "Neisseria", "correct": false }
+          ],
+          "explanation": "Bacillus and Clostridium produce spores."
+        },
+        {
+          "question": "Gram positive bacteria contain",
+          "options": [
+            { "text": "Outer membrane", "correct": false },
+            { "text": "Teichoic acid", "correct": true },
+            { "text": "Lipopolysaccharide", "correct": false },
+            { "text": "Porins", "correct": false }
+          ],
+          "explanation": "Teichoic acids are present in Gram positive cell walls."
+        },
+        {
+          "question": "LPS is a component of",
+          "options": [
+            { "text": "Gram positive bacteria", "correct": false },
+            { "text": "Gram negative bacteria", "correct": true },
+            { "text": "Mycoplasma", "correct": false },
+            { "text": "Chlamydia", "correct": false }
+          ],
+          "explanation": "LPS is present in Gram negative outer membrane."
+        },
+        {
+          "question": "H antigen is associated with",
+          "options": [
+            { "text": "Capsule", "correct": false },
+            { "text": "Flagella", "correct": true },
+            { "text": "Cell wall", "correct": false },
+            { "text": "Ribosome", "correct": false }
+          ],
+          "explanation": "H antigen represents flagellar antigen."
+        },
+        {
+          "question": "Arrangement of cocci in chains suggests",
+          "options": [
+            { "text": "Staphylococci", "correct": false },
+            { "text": "Streptococci", "correct": true },
+            { "text": "Neisseria", "correct": false },
+            { "text": "Micrococci", "correct": false }
+          ],
+          "explanation": "Streptococci arrange in chains."
+        },
+        {
+          "question": "Binary fission occurs during",
+          "options": [
+            { "text": "Lag phase", "correct": false },
+            { "text": "Log phase", "correct": true },
+            { "text": "Stationary phase", "correct": false },
+            { "text": "Decline phase", "correct": false }
+          ],
+          "explanation": "Rapid division occurs in log phase."
+        },
+        {
+          "question": "Pleomorphism is best seen in",
+          "options": [
+            { "text": "E coli", "correct": false },
+            { "text": "Mycoplasma", "correct": true },
+            { "text": "Clostridium", "correct": false },
+            { "text": "Staphylococcus", "correct": false }
+          ],
+          "explanation": "Mycoplasma shows variable shapes."
+        }
+      ]
+    },
+
+    {
+      "title": "Bacterial Physiology, Genetics, and Testing",
+      "mcqs": [
+        {
+          "question": "Catalase test differentiates",
+          "options": [
+            { "text": "Staphylococci and streptococci", "correct": true },
+            { "text": "E coli and Klebsiella", "correct": false },
+            { "text": "Salmonella and Shigella", "correct": false },
+            { "text": "Neisseria species", "correct": false }
+          ],
+          "explanation": "Staphylococci are catalase positive."
+        },
+        {
+          "question": "Oxidase positive organism is",
+          "options": [
+            { "text": "E coli", "correct": false },
+            { "text": "Pseudomonas", "correct": true },
+            { "text": "Shigella", "correct": false },
+            { "text": "Salmonella", "correct": false }
+          ],
+          "explanation": "Pseudomonas is oxidase positive."
+        },
+        {
+          "question": "Antibiotic sensitivity testing commonly uses",
+          "options": [
+            { "text": "ELISA", "correct": false },
+            { "text": "Kirby Bauer method", "correct": true },
+            { "text": "PCR", "correct": false },
+            { "text": "Western blot", "correct": false }
+          ],
+          "explanation": "Disk diffusion is standard AST method."
+        },
+        {
+          "question": "Plasmids are responsible for",
+          "options": [
+            { "text": "Protein synthesis", "correct": false },
+            { "text": "Antibiotic resistance", "correct": true },
+            { "text": "Cell wall synthesis", "correct": false },
+            { "text": "Energy production", "correct": false }
+          ],
+          "explanation": "R plasmids carry resistance genes."
+        },
+        {
+          "question": "Transformation involves",
+          "options": [
+            { "text": "Bacteriophage mediated transfer", "correct": false },
+            { "text": "Direct uptake of naked DNA", "correct": true },
+            { "text": "Cell to cell contact", "correct": false },
+            { "text": "Plasmid exchange only", "correct": false }
+          ],
+          "explanation": "Transformation is uptake of free DNA."
+        },
+        {
+          "question": "Conjugation requires",
+          "options": [
+            { "text": "Bacteriophage", "correct": false },
+            { "text": "Sex pilus", "correct": true },
+            { "text": "Competence", "correct": false },
+            { "text": "Transposons", "correct": false }
+          ],
+          "explanation": "Sex pilus enables conjugation."
+        },
+        {
+          "question": "Transduction is mediated by",
+          "options": [
+            { "text": "Plasmids", "correct": false },
+            { "text": "Bacteriophages", "correct": true },
+            { "text": "Ribosomes", "correct": false },
+            { "text": "Capsule", "correct": false }
+          ],
+          "explanation": "Phages transfer DNA between bacteria."
+        },
+        {
+          "question": "Minimal inhibitory concentration refers to",
+          "options": [
+            { "text": "Highest drug concentration", "correct": false },
+            { "text": "Lowest concentration inhibiting growth", "correct": true },
+            { "text": "Bactericidal dose", "correct": false },
+            { "text": "Toxic dose", "correct": false }
+          ],
+          "explanation": "MIC prevents visible bacterial growth."
+        },
+        {
+          "question": "Selective media example is",
+          "options": [
+            { "text": "Blood agar", "correct": false },
+            { "text": "MacConkey agar", "correct": true },
+            { "text": "Chocolate agar", "correct": false },
+            { "text": "Nutrient agar", "correct": false }
+          ],
+          "explanation": "MacConkey inhibits Gram positive bacteria."
+        },
+        {
+          "question": "Lactose fermenters appear as",
+          "options": [
+            { "text": "Colorless colonies", "correct": false },
+            { "text": "Pink colonies", "correct": true },
+            { "text": "Green colonies", "correct": false },
+            { "text": "Black colonies", "correct": false }
+          ],
+          "explanation": "Lactose fermentation produces pink colonies."
+        }
+      ]
+    },
+
+    {
+      "title": "Sterilization, Disinfection, and Infection Control",
+      "mcqs": [
+        {
+          "question": "Sterilization destroys",
+          "options": [
+            { "text": "Vegetative forms only", "correct": false },
+            { "text": "All forms of life", "correct": true },
+            { "text": "Spores only", "correct": false },
+            { "text": "Viruses only", "correct": false }
+          ],
+          "explanation": "Sterilization eliminates all microorganisms."
+        },
+        {
+          "question": "Autoclaving uses",
+          "options": [
+            { "text": "Dry heat", "correct": false },
+            { "text": "Moist heat under pressure", "correct": true },
+            { "text": "Radiation", "correct": false },
+            { "text": "Filtration", "correct": false }
+          ],
+          "explanation": "Autoclave uses steam under pressure."
+        },
+        {
+          "question": "Standard autoclave temperature is",
+          "options": [
+            { "text": "100°C", "correct": false },
+            { "text": "121°C", "correct": true },
+            { "text": "160°C", "correct": false },
+            { "text": "180°C", "correct": false }
+          ],
+          "explanation": "121°C for 15 minutes is standard."
+        },
+        {
+          "question": "Phenol is mainly used as",
+          "options": [
+            { "text": "Antiseptic", "correct": false },
+            { "text": "Disinfectant", "correct": true },
+            { "text": "Sterilant", "correct": false },
+            { "text": "Preservative", "correct": false }
+          ],
+          "explanation": "Phenol is used for environmental disinfection."
+        },
+        {
+          "question": "Alcohol is ineffective against",
+          "options": [
+            { "text": "Gram positive bacteria", "correct": false },
+            { "text": "Spores", "correct": true },
+            { "text": "Viruses", "correct": false },
+            { "text": "Mycobacteria", "correct": false }
+          ],
+          "explanation": "Alcohol does not kill spores."
+        },
+        {
+          "question": "Ethylene oxide is used for",
+          "options": [
+            { "text": "Metal instruments", "correct": false },
+            { "text": "Heat sensitive equipment", "correct": true },
+            { "text": "Liquids", "correct": false },
+            { "text": "Air sterilization", "correct": false }
+          ],
+          "explanation": "It sterilizes delicate instruments."
+        },
+        {
+          "question": "Pasteurization is mainly used for",
+          "options": [
+            { "text": "Milk", "correct": true },
+            { "text": "Surgical instruments", "correct": false },
+            { "text": "Culture media", "correct": false },
+            { "text": "Vaccines", "correct": false }
+          ],
+          "explanation": "Pasteurization reduces pathogens in milk."
+        },
+        {
+          "question": "Hand hygiene is part of",
+          "options": [
+            { "text": "Transmission based precautions", "correct": false },
+            { "text": "Standard precautions", "correct": true },
+            { "text": "Airborne precautions", "correct": false },
+            { "text": "Contact precautions", "correct": false }
+          ],
+          "explanation": "Standard precautions apply to all patients."
+        },
+        {
+          "question": "N95 masks are required for",
+          "options": [
+            { "text": "Contact precautions", "correct": false },
+            { "text": "Droplet precautions", "correct": false },
+            { "text": "Airborne precautions", "correct": true },
+            { "text": "Standard precautions", "correct": false }
+          ],
+          "explanation": "Used for airborne infections like TB."
+        },
+        {
+          "question": "Biomedical waste segregation is based on",
+          "options": [
+            { "text": "Weight", "correct": false },
+            { "text": "Color coding", "correct": true },
+            { "text": "Size", "correct": false },
+            { "text": "Cost", "correct": false }
+          ],
+          "explanation": "Color coded bins are used."
+        }
+      ]
+    },
+
+    {
+      "title": "Miscellaneous and Integrative Microbiology",
+      "mcqs": [
+        {
+          "question": "Normal flora provides benefit by",
+          "options": [
+            { "text": "Causing disease", "correct": false },
+            { "text": "Preventing pathogen colonization", "correct": true },
+            { "text": "Producing toxins", "correct": false },
+            { "text": "Inducing allergy", "correct": false }
+          ],
+          "explanation": "Normal flora competes with pathogens."
+        },
+        {
+          "question": "Opportunistic infections occur mainly in",
+          "options": [
+            { "text": "Healthy individuals", "correct": false },
+            { "text": "Immunocompromised patients", "correct": true },
+            { "text": "Children only", "correct": false },
+            { "text": "Elderly only", "correct": false }
+          ],
+          "explanation": "Low immunity predisposes to opportunistic infections."
+        },
+        {
+          "question": "Nosocomial infections are acquired from",
+          "options": [
+            { "text": "Community", "correct": false },
+            { "text": "Hospital", "correct": true },
+            { "text": "Food", "correct": false },
+            { "text": "Water", "correct": false }
+          ],
+          "explanation": "Hospital acquired infections are nosocomial."
+        },
+        {
+          "question": "Biofilms are problematic because they",
+          "options": [
+            { "text": "Grow slowly", "correct": false },
+            { "text": "Are resistant to antibiotics", "correct": true },
+            { "text": "Are easily removed", "correct": false },
+            { "text": "Are non pathogenic", "correct": false }
+          ],
+          "explanation": "Biofilms protect bacteria from drugs."
+        },
+        {
+          "question": "Quorum sensing regulates",
+          "options": [
+            { "text": "Cell division", "correct": false },
+            { "text": "Gene expression based on population density", "correct": true },
+            { "text": "Spore formation only", "correct": false },
+            { "text": "DNA replication", "correct": false }
+          ],
+          "explanation": "Quorum sensing depends on bacterial density."
+        },
+        {
+          "question": "Endotoxin is mainly composed of",
+          "options": [
+            { "text": "Protein", "correct": false },
+            { "text": "Lipid A", "correct": true },
+            { "text": "Polysaccharide only", "correct": false },
+            { "text": "DNA", "correct": false }
+          ],
+          "explanation": "Lipid A is the toxic component."
+        },
+        {
+          "question": "Exotoxins are usually",
+          "options": [
+            { "text": "Heat stable", "correct": false },
+            { "text": "Protein in nature", "correct": true },
+            { "text": "Weakly antigenic", "correct": false },
+            { "text": "Part of cell wall", "correct": false }
+          ],
+          "explanation": "Exotoxins are proteins."
+        },
+        {
+          "question": "Toxoids are used for",
+          "options": [
+            { "text": "Diagnosis", "correct": false },
+            { "text": "Vaccination", "correct": true },
+            { "text": "Treatment", "correct": false },
+            { "text": "Sterilization", "correct": false }
+          ],
+          "explanation": "Inactivated toxins induce immunity."
+        },
+        {
+          "question": "Zoonotic diseases are transmitted from",
+          "options": [
+            { "text": "Humans", "correct": false },
+            { "text": "Animals", "correct": true },
+            { "text": "Soil", "correct": false },
+            { "text": "Water", "correct": false }
+          ],
+          "explanation": "Zoonoses spread from animals to humans."
+        },
+        {
+          "question": "Incubation period refers to time between",
+          "options": [
+            { "text": "Exposure and diagnosis", "correct": false },
+            { "text": "Exposure and symptom onset", "correct": true },
+            { "text": "Infection and recovery", "correct": false },
+            { "text": "Treatment and cure", "correct": false }
+          ],
+          "explanation": "It is the time before symptoms appear."
+        }
+      ]
+    }
+  ]
+}

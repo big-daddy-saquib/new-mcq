@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<head>
+   <title>home</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/bottomnav.css">
+  <link rel="stylesheet" href="css/general.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+/* RESET & BASE */
+* { box-sizing: border-box; margin:0; padding:0; }
+body { font-family: 'Roboto', sans-serif; background:#f0f4f8; color:#1f2933; }
+
+/* FULL PAGE BACKGROUND */
+body::before {
+  content:"";
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: src('icons/banner.jpg') no-repeat center center/cover;
+  filter: blur(8px) brightness(0.6);
+  z-index:-1;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 30vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 { font-size: 3rem; margin-bottom: 16px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+.hero p { font-size: 1.2rem; margin-bottom: 24px; text-shadow: 1px 1px 6px rgba(0,0,0,0.5);}
+.hero a { background: #ffffff; color:#2563eb; padding: 12px 28px; border-radius: 10px; text-decoration:none; font-weight:500; transition:0.3s; }
+.hero a:hover { background:#e5edff; }
+
+/* TABS */
+.tabs {
+  display:flex; justify-content:center; gap:15px; flex-wrap:wrap;
+  margin:40px 0 20px 0;
+}
+
+.tab {
+  padding:10px 22px; cursor:pointer;
+  background:#ffffff; border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  color:#2563eb; font-weight:bold; transition:0.3s;
+}
+
+.tab.active {
+  background:#2563eb; color:#ffffff; box-shadow:0 6px 18px rgba(37,99,235,0.4);
+}
+
+.tab:hover { background:#e5edff; }
+
+/* GRID CARDS */
+.notes-grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin-bottom:60px;
+  opacity:0;
+  transform: translateY(30px);
+  transition: 0.6s ease;
+}
+
+.notes-grid.show {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.note-card {
+  background:#ffffff; border-radius:16px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.15);
+  overflow:hidden; transition:0.4s; display:flex; flex-direction:column;
+}
+
+.note-card:hover { transform:translateY(-6px) scale(1.02); box-shadow:0 12px 30px rgba(0,0,0,0.2); }
+
+.note-card img { width:100%; height:150px; object-fit:cover; }
+
+.note-card-content { padding:16px; flex-grow:1; display:flex; flex-direction:column; }
+
+.note-card-content h3 { font-size:1.2rem; margin-bottom:8px; color:#2563eb; }
+.note-card-content p { font-size:0.95rem; flex-grow:1; color:#475569; margin-bottom:12px; }
+
+.note-card-content a { display:inline-block; text-align:center;
+  padding:8px 16px; background:#2563eb; color:white; border-radius:8px;
+  text-decoration:none; font-weight:500; transition:0.3s;
+}
+
+.note-card-content a:hover { background:#1e40af; }
+
+/* BADGES */
+.badge {
+  position:absolute; top:12px; left:12px;
+  background:#f97316; color:white; font-size:0.75rem; font-weight:600;
+  padding:4px 8px; border-radius:6px;
+  text-transform:uppercase;
+}
+
+/* EXAM SECTIONS */
+.exam-section { display:none; position:relative; }
+
+/* FOOTER */
+footer { text-align:center; margin-top: 200px; padding:30px 20px; color:#0a0000; font-size:0.9rem; background: #ffffff; border-top:1px solid rgba(255,255,255,0.2); }
+
+/* MOBILE */
+@media(max-width:480px){
+  .hero h1 { font-size:2rem; }
+  .hero p { font-size:1rem; }
+  .note-card img { height:130px; }
+}
+</style>
+
+   
+</head>
+    
+<body>
+  <nav class="navbar">
+  <div class="logo">
+    <a href="#">  
+      <header style="text-align:center;">
+       <img src="assets/IMG-preview.png" alt="Logo" style="height:65px;">
+      </header>
+    </a>
+  </div>
+  <!-- Language flags -->
+    <div class="lang-switch">
+      <a href="pages/russian/index.html" title="Русский" class="lang-flag">
+        <img src="assets/russia.png" alt="Russian" width="32" height="32" loading="lazy" decoding="async">
+      </a>
+    </div>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul id="nav-links">
+    <li><a href="main.html">Home</a></li>
+    <li><a href="assets/about.html">About</a></li>
+    <li><a href="assets/contact.html">Contact</a></li>
+    <li><a href="assets/profile.html">Profile</a></li>
+    <li>
+      <div class="nav-buttons">
+        <a href="index.html" class="button-signin">Login</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+ 
+
+
+<div class="scroller">
+  <div class="scroller-track">
+    <div class="scroller-item">Anatomy</div>
+    <div class="scroller-item">coming soon</div>
+    <div class="scroller-item">Biochemistry</div>
+    <div class="scroller-item">Physiology</div>
+    <div class="scroller-item">coming soon</div>
+    <div class="scroller-item">pathology</div>
+
+    <!-- duplicate for seamless scroll -->
+    <div class="scroller-item">Anatomy</div>
+    <div class="scroller-item">coming soon</div>
+    <div class="scroller-item">Biochemistry</div>
+    <div class="scroller-item">Physiology</div>
+    <div class="scroller-item">coming soon</div>
+    <div class="scroller-item">pathology</div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Premium Medical Notes</h1>
+  <p>High-quality notes for FMGE, USMLE, and other exams. Learn faster & smarter.</p>
+  <a href="#notes">Explore Notes</a>
+</section>
+
+<!-- TABS -->
+<div class="tabs" id="notes">
+  <div class="tab active" data-exam="fmge">FMGE (India)</div>
+  <div class="tab" data-exam="usmle">USMLE</div>
+  <div class="tab" data-exam="other">Other Exams</div>
+</div>
+
+<!-- EXAM SECTIONS -->
+
+<section class="exam-section" id="fmge">
+  <div class="notes-grid">
+    <div class="note-card">
+      <div style="position:relative;">
+        <span class="badge">Popular</span>
+        <img src="icons/banner.png" alt="">
+      </div>
+      <div class="note-card-content">
+        <h3>FMGE Notes 1</h3>
+        <p>High-yield concise notes for FMGE covering all subjects.</p>
+        <a href="notes/index.html">View Notes</a>
+      </div>
+    </div>
+    <div class="note-card">
+      <div style="position:relative;">
+        <img src="icons/banner.png" alt="">
+      </div>
+      <div class="note-card-content">
+        <h3>FMGE Notes 2</h3>
+        <p>Structured notes with diagrams, mnemonics, and key facts.</p>
+        <a href="notes/index.html">View Notes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="exam-section" id="usmle">
+  <div class="notes-grid">
+    <div class="note-card">
+      <div style="position:relative;">
+        <span class="badge">Popular</span>
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="">
+      </div>
+      <div class="note-card-content">
+        <h3>USMLE Notes 1</h3>
+        <p>Comprehensive Step 1 notes covering all high-yield topics.</p>
+        <a href="#">View Notes</a>
+      </div>
+    </div>
+    <div class="note-card">
+      <div style="position:relative;">
+        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71" alt="">
+      </div>
+      <div class="note-card-content">
+        <h3>USMLE Notes 2</h3>
+        <p>Step 2 CK notes with clinical scenarios and mnemonics.</p>
+        <a href="#">View Notes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="exam-section" id="other">
+  <div class="notes-grid">
+    <div class="note-card">
+      <div style="position:relative;">
+        <span class="badge">New</span>
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644" alt="">
+      </div>
+      <div class="note-card-content">
+        <h3>Other Notes 1</h3>
+        <p>PLAB & AMC notes, concise and easy to revise.</p>
+        <a href="#">View Notes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer>
+  &copy; 2026 Premium Medical Notes. All Rights Reserved.
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bottom nav here -->
+<div class="bottom-nav">
+  <a href="main.html" class="nav-item" data-page="main">
+    <img src="icons/home.png" data-inactive="icons/home.png" data-active="icons/homeactive.png">
+    <span>Home</span>
+    <div class="indicator"></div>
+  </a>
+
+  <a href="Q-bank.html" class="nav-item" data-page="Q-bank">
+    <img src="icons/search.png" data-inactive="icons/search.png" data-active="icons/searchactive.png">
+    <span>QBank</span>
+    <div class="indicator"></div>
+  </a>
+
+  <a href="notes.html" class="nav-item" data-page="notes">
+    <img src="icons/tests.png" data-inactive="icons/tests.png" data-active="icons/testsactive.png">
+    <span>Tests</span>
+    <div class="indicator"></div>
+  </a>
+
+  <a href="lectures.html" class="nav-item" data-page="lectures">
+    <img src="icons/video.png" data-inactive="icons/video.png" data-active="icons/videoactive.png">
+    <span>Videos</span>
+    <div class="indicator"></div>
+  </a>
+</div>
+
+<script src="script/navbottom.js"></script>
+<script src="script/general.js"></script>
+
+
+<script>
+// Tabs functionality
+const tabs = document.querySelectorAll('.tab');
+const sections = document.querySelectorAll('.exam-section');
+
+sections.forEach(sec => sec.classList.remove('show')); // hide all
+document.getElementById('fmge').style.display='block';
+document.getElementById('fmge').querySelector('.notes-grid').classList.add('show');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    tabs.forEach(t=>t.classList.remove('active'));
+    tab.classList.add('active');
+
+    sections.forEach(sec=>sec.style.display='none');
+    const exam = tab.dataset.exam;
+    const current = document.getElementById(exam);
+    current.style.display='block';
+    setTimeout(()=> current.querySelector('.notes-grid').classList.add('show'),50);
+  });
+});
+</script>
+
+
+</body> 
+</html>

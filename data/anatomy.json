@@ -1,0 +1,428 @@
+{
+  "title": "Head and Neck Anatomy",
+  "topics": [
+    {
+      "title": "Pharyngeal Arches, Clefts, Pouches and Development",
+      "mcqs": [
+        {
+          "question": "Pharyngeal arches give rise to",
+          "options": [
+            { "text": "Bones, muscles, and nerves of head and neck", "correct": true },
+            { "text": "Heart valves", "correct": false },
+            { "text": "Lung tissue", "correct": false },
+            { "text": "Kidney tubules", "correct": false }
+          ],
+          "explanation": "Each pharyngeal arch contributes specific skeletal, muscular, and neural structures."
+        },
+        {
+          "question": "First pharyngeal arch is also called",
+          "options": [
+            { "text": "Hyoid arch", "correct": false },
+            { "text": "Mandibular arch", "correct": true },
+            { "text": "Thyroid arch", "correct": false },
+            { "text": "Glossopharyngeal arch", "correct": false }
+          ],
+          "explanation": "First arch forms mandible, malleus, incus, and muscles of mastication."
+        },
+        {
+          "question": "Second pharyngeal arch forms",
+          "options": [
+            { "text": "Hyoid bone and muscles of facial expression", "correct": true },
+            { "text": "Mandible", "correct": false },
+            { "text": "Tongue muscles", "correct": false },
+            { "text": "Thyroid cartilage", "correct": false }
+          ],
+          "explanation": "Second arch is also called hyoid arch."
+        },
+        {
+          "question": "Third pharyngeal arch contributes to",
+          "options": [
+            { "text": "Stapes", "correct": false },
+            { "text": "Greater horn of hyoid", "correct": true },
+            { "text": "Maxilla", "correct": false },
+            { "text": "Laryngeal muscles", "correct": false }
+          ],
+          "explanation": "Third arch forms parts of hyoid and stylopharyngeus."
+        },
+        {
+          "question": "Fourth pharyngeal arch contributes to",
+          "options": [
+            { "text": "Muscles of pharynx and larynx", "correct": true },
+            { "text": "Malleus and incus", "correct": false },
+            { "text": "Tongue body", "correct": false },
+            { "text": "Thyroid gland", "correct": false }
+          ],
+          "explanation": "Fourth arch muscles are innervated by vagus nerve."
+        },
+        {
+          "question": "First pharyngeal cleft forms",
+          "options": [
+            { "text": "External auditory canal", "correct": true },
+            { "text": "Tympanic cavity", "correct": false },
+            { "text": "Pharyngeal tonsil", "correct": false },
+            { "text": "Laryngeal cartilages", "correct": false }
+          ],
+          "explanation": "First cleft develops into external ear canal."
+        },
+        {
+          "question": "Thyroid gland originates from",
+          "options": [
+            { "text": "Floor of primitive pharynx", "correct": true },
+            { "text": "Second pharyngeal arch", "correct": false },
+            { "text": "Maxillary process", "correct": false },
+            { "text": "Neural crest", "correct": false }
+          ],
+          "explanation": "Thyroid descends from foramen cecum."
+        },
+        {
+          "question": "Tongue anterior 2/3 develops from",
+          "options": [
+            { "text": "First arch", "correct": true },
+            { "text": "Second arch", "correct": false },
+            { "text": "Third arch", "correct": false },
+            { "text": "Fourth arch", "correct": false }
+          ],
+          "explanation": "Anterior tongue arises from lateral lingual swellings of first arch."
+        },
+        {
+          "question": "Posterior 1/3 of tongue arises from",
+          "options": [
+            { "text": "Third pharyngeal arch", "correct": true },
+            { "text": "First arch", "correct": false },
+            { "text": "Second arch", "correct": false },
+            { "text": "Fourth arch only", "correct": false }
+          ],
+          "explanation": "Third arch forms posterior tongue and pharyngeal epithelium."
+        },
+        {
+          "question": "Clefts 2–4 normally form",
+          "options": [
+            { "text": "Cervical sinus, which disappears", "correct": true },
+            { "text": "External auditory canal", "correct": false },
+            { "text": "Tympanic cavity", "correct": false },
+            { "text": "Hyoid bone", "correct": false }
+          ],
+          "explanation": "Second to fourth clefts form temporary cervical sinus."
+        }
+      ]
+    },
+
+    {
+      "title": "Osteology and Fascia of Head and Neck",
+      "mcqs": [
+        {
+          "question": "The hyoid bone is unique because it",
+          "options": [
+            { "text": "Does not articulate with other bones", "correct": true },
+            { "text": "Forms part of mandible", "correct": false },
+            { "text": "Articulates with cervical vertebra", "correct": false },
+            { "text": "Is part of skull base", "correct": false }
+          ],
+          "explanation": "Hyoid is suspended by muscles and ligaments."
+        },
+        {
+          "question": "Scalp layers are remembered by",
+          "options": [
+            { "text": "SCALP: Skin, Connective tissue, Aponeurosis, Loose areolar tissue, Pericranium", "correct": true },
+            { "text": "Skin, Cartilage, Artery, Lymph, Pericranium", "correct": false },
+            { "text": "Skin, Connective tissue, Artery, Ligament, Pericranium", "correct": false },
+            { "text": "Skin, Collagen, Aponeurosis, Lymph, Pericranium", "correct": false }
+          ],
+          "explanation": "Classic mnemonic for scalp layers."
+        },
+        {
+          "question": "The deep cervical fascia divides neck into",
+          "options": [
+            { "text": "Triangles and compartments", "correct": true },
+            { "text": "Lobes only", "correct": false },
+            { "text": "Only superficial fascia", "correct": false },
+            { "text": "Cavities of skull", "correct": false }
+          ],
+          "explanation": "Deep fascia creates anatomical spaces in the neck."
+        },
+        {
+          "question": "Submandibular triangle is bounded by",
+          "options": [
+            { "text": "Mandible and digastric muscles", "correct": true },
+            { "text": "Clavicle and sternum", "correct": false },
+            { "text": "Scapula and trapezius", "correct": false },
+            { "text": "Hyoid and sternocleidomastoid only", "correct": false }
+          ],
+          "explanation": "Borders include anterior and posterior bellies of digastric and mandible."
+        },
+        {
+          "question": "Carotid triangle contains",
+          "options": [
+            { "text": "Internal jugular vein, carotid artery, vagus nerve", "correct": true },
+            { "text": "Subclavian artery only", "correct": false },
+            { "text": "External jugular vein only", "correct": false },
+            { "text": "Phrenic nerve only", "correct": false }
+          ],
+          "explanation": "Key neurovascular contents of carotid triangle."
+        },
+        {
+          "question": "Infratemporal fossa contains",
+          "options": [
+            { "text": "Mandibular nerve, maxillary artery, pterygoid muscles", "correct": true },
+            { "text": "Optic nerve", "correct": false },
+            { "text": "Facial nerve only", "correct": false },
+            { "text": "Thyroid gland", "correct": false }
+          ],
+          "explanation": "Important space for masticatory structures."
+        },
+        {
+          "question": "Pterygopalatine fossa communicates with",
+          "options": [
+            { "text": "Orbit, nasal cavity, infratemporal fossa", "correct": true },
+            { "text": "Ear canal only", "correct": false },
+            { "text": "Larynx", "correct": false },
+            { "text": "Pharynx only", "correct": false }
+          ],
+          "explanation": "Contains maxillary nerve and pterygopalatine ganglion."
+        },
+        {
+          "question": "Dural venous sinuses drain into",
+          "options": [
+            { "text": "Internal jugular vein", "correct": true },
+            { "text": "External carotid artery", "correct": false },
+            { "text": "Thoracic duct", "correct": false },
+            { "text": "Subclavian vein", "correct": false }
+          ],
+          "explanation": "Sinuses converge to internal jugular vein."
+        },
+        {
+          "question": "Cavernous sinus surrounds",
+          "options": [
+            { "text": "Internal carotid artery and cranial nerves III, IV, V1, V2, VI", "correct": true },
+            { "text": "Mandibular nerve", "correct": false },
+            { "text": "External jugular vein", "correct": false },
+            { "text": "Thyroid cartilage", "correct": false }
+          ],
+          "explanation": "Cavernous sinus anatomy is clinically important."
+        },
+        {
+          "question": "Extraocular muscles are innervated by",
+          "options": [
+            { "text": "III, IV, VI cranial nerves", "correct": true },
+            { "text": "V cranial nerve", "correct": false },
+            { "text": "VII cranial nerve", "correct": false },
+            { "text": "IX cranial nerve", "correct": false }
+          ],
+          "explanation": "Oculomotor, trochlear, and abducens supply eye muscles."
+        }
+      ]
+    },
+
+    {
+      "title": "Cranial Nerves: 3,4,6,7,9,10,12",
+      "mcqs": [
+        {
+          "question": "Oculomotor nerve (III) supplies",
+          "options": [
+            { "text": "Most extraocular muscles and levator palpebrae", "correct": true },
+            { "text": "Lateral rectus", "correct": false },
+            { "text": "Superior oblique", "correct": false },
+            { "text": "Facial muscles", "correct": false }
+          ],
+          "explanation": "III nerve controls most eye muscles."
+        },
+        {
+          "question": "Trochlear nerve (IV) supplies",
+          "options": [
+            { "text": "Superior oblique", "correct": true },
+            { "text": "Lateral rectus", "correct": false },
+            { "text": "Levator palpebrae", "correct": false },
+            { "text": "Masseter", "correct": false }
+          ],
+          "explanation": "IV nerve innervates superior oblique."
+        },
+        {
+          "question": "Abducens nerve (VI) supplies",
+          "options": [
+            { "text": "Lateral rectus", "correct": true },
+            { "text": "Medial rectus", "correct": false },
+            { "text": "Superior oblique", "correct": false },
+            { "text": "Levator palpebrae", "correct": false }
+          ],
+          "explanation": "VI nerve abducts the eye."
+        },
+        {
+          "question": "Facial nerve (VII) provides motor supply to",
+          "options": [
+            { "text": "Muscles of facial expression", "correct": true },
+            { "text": "Masseter", "correct": false },
+            { "text": "Sternocleidomastoid", "correct": false },
+            { "text": "Laryngeal muscles", "correct": false }
+          ],
+          "explanation": "VII nerve controls facial muscles."
+        },
+        {
+          "question": "Glossopharyngeal nerve (IX) carries",
+          "options": [
+            { "text": "Taste from posterior 1/3 tongue and sensory to pharynx", "correct": true },
+            { "text": "Anterior tongue taste", "correct": false },
+            { "text": "Eye movements", "correct": false },
+            { "text": "Neck muscles only", "correct": false }
+          ],
+          "explanation": "IX nerve is mixed sensory and motor."
+        },
+        {
+          "question": "Vagus nerve (X) innervates",
+          "options": [
+            { "text": "Laryngeal and pharyngeal muscles", "correct": true },
+            { "text": "Facial muscles", "correct": false },
+            { "text": "Tongue muscles", "correct": false },
+            { "text": "Extraocular muscles", "correct": false }
+          ],
+          "explanation": "X nerve is key for autonomic and motor supply."
+        },
+        {
+          "question": "Hypoglossal nerve (XII) controls",
+          "options": [
+            { "text": "Intrinsic and extrinsic tongue muscles", "correct": true },
+            { "text": "Pharyngeal muscles", "correct": false },
+            { "text": "Facial muscles", "correct": false },
+            { "text": "Laryngeal muscles", "correct": false }
+          ],
+          "explanation": "XII nerve is purely motor for tongue."
+        },
+        {
+          "question": "Lesion of facial nerve causes",
+          "options": [
+            { "text": "Bell’s palsy", "correct": true },
+            { "text": "Lateral rectus paralysis", "correct": false },
+            { "text": "Tongue deviation", "correct": false },
+            { "text": "Hoarseness", "correct": false }
+          ],
+          "explanation": "VII nerve palsy leads to facial weakness."
+        },
+        {
+          "question": "Lesion of abducens nerve causes",
+          "options": [
+            { "text": "Medial strabismus", "correct": true },
+            { "text": "Lateral strabismus", "correct": false },
+            { "text": "Ptosis", "correct": false },
+            { "text": "Loss of taste", "correct": false }
+          ],
+          "explanation": "VI palsy results in inability to abduct eye."
+        },
+        {
+          "question": "Lesion of hypoglossal nerve causes",
+          "options": [
+            { "text": "Tongue deviates toward lesion", "correct": true },
+            { "text": "Facial droop", "correct": false },
+            { "text": "Hoarseness", "correct": false },
+            { "text": "Loss of gag reflex", "correct": false }
+          ],
+          "explanation": "XII lesion causes tongue deviation ipsilaterally."
+        }
+      ]
+    },
+
+    {
+      "title": "Nose, Larynx, Pharynx and Tongue",
+      "mcqs": [
+        {
+          "question": "Olfactory nerve (I) passes through",
+          "options": [
+            { "text": "Cribriform plate of ethmoid", "correct": true },
+            { "text": "Optic canal", "correct": false },
+            { "text": "Jugular foramen", "correct": false },
+            { "text": "Foramen ovale", "correct": false }
+          ],
+          "explanation": "Olfactory filaments pass through cribriform plate."
+        },
+        {
+          "question": "Laryngeal muscles are mainly supplied by",
+          "options": [
+            { "text": "Recurrent laryngeal branch of vagus", "correct": true },
+            { "text": "Facial nerve", "correct": false },
+            { "text": "Glossopharyngeal nerve", "correct": false },
+            { "text": "Hypoglossal nerve", "correct": false }
+          ],
+          "explanation": "Recurrent laryngeal nerve supplies intrinsic muscles."
+        },
+        {
+          "question": "Pharyngeal constrictors are supplied by",
+          "options": [
+            { "text": "Vagus nerve", "correct": true },
+            { "text": "Trigeminal nerve", "correct": false },
+            { "text": "Hypoglossal nerve", "correct": false },
+            { "text": "Facial nerve", "correct": false }
+          ],
+          "explanation": "Vagus provides motor fibers via pharyngeal plexus."
+        },
+        {
+          "question": "Papillae with taste buds are absent on",
+          "options": [
+            { "text": "Filiform papillae", "correct": true },
+            { "text": "Fungiform papillae", "correct": false },
+            { "text": "Circumvallate papillae", "correct": false },
+            { "text": "Foliate papillae", "correct": false }
+          ],
+          "explanation": "Filiform papillae are mechanical only."
+        },
+        {
+          "question": "Tongue sensation anterior 2/3 is via",
+          "options": [
+            { "text": "Lingual branch of V3", "correct": true },
+            { "text": "Glossopharyngeal nerve", "correct": false },
+            { "text": "Hypoglossal nerve", "correct": false },
+            { "text": "Facial nerve motor", "correct": false }
+          ],
+          "explanation": "Lingual nerve carries general sensation."
+        },
+        {
+          "question": "Posterior 1/3 tongue sensation is by",
+          "options": [
+            { "text": "Glossopharyngeal nerve", "correct": true },
+            { "text": "Lingual nerve", "correct": false },
+            { "text": "Hypoglossal nerve", "correct": false },
+            { "text": "Vagus nerve", "correct": false }
+          ],
+          "explanation": "IX nerve supplies posterior tongue."
+        },
+        {
+          "question": "Superior laryngeal nerve supplies",
+          "options": [
+            { "text": "Cricothyroid muscle and laryngeal mucosa", "correct": true },
+            { "text": "Intrinsic laryngeal muscles", "correct": false },
+            { "text": "Pharyngeal muscles", "correct": false },
+            { "text": "Tongue muscles", "correct": false }
+          ],
+          "explanation": "SLN divides into external and internal branches."
+        },
+        {
+          "question": "Nasal septum is formed by",
+          "options": [
+            { "text": "Vomer and perpendicular plate of ethmoid", "correct": true },
+            { "text": "Sphenoid only", "correct": false },
+            { "text": "Frontal and maxilla", "correct": false },
+            { "text": "Palatine only", "correct": false }
+          ],
+          "explanation": "Septum has bony and cartilaginous parts."
+        },
+        {
+          "question": "Paranasal sinuses drain into",
+          "options": [
+            { "text": "Nasal cavity", "correct": true },
+            { "text": "Pharynx directly", "correct": false },
+            { "text": "Oral cavity", "correct": false },
+            { "text": "Larynx", "correct": false }
+          ],
+          "explanation": "All sinuses open into nasal cavity."
+        },
+        {
+          "question": "Laryngeal inlet is bounded by",
+          "options": [
+            { "text": "Epiglottis, aryepiglottic folds, arytenoid cartilages", "correct": true },
+            { "text": "Hyoid only", "correct": false },
+            { "text": "Thyroid cartilage only", "correct": false },
+            { "text": "Cricothyroid membrane only", "correct": false }
+          ],
+          "explanation": "Forms opening into larynx from pharynx."
+        }
+      ]
+    }
+  ]
+}

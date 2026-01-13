@@ -1,0 +1,215 @@
+{
+  "title": "Biochemistry",
+  "topics": [
+    {
+      "title": "Biomolecules",
+      "mcqs": [
+        {
+          "question": "Which monosaccharide is the sweetest?",
+          "options": [
+            { "text": "Fructose", "correct": true },
+            { "text": "Glucose", "correct": false },
+            { "text": "Galactose", "correct": false },
+            { "text": "Mannose", "correct": false }
+          ],
+          "explanation": "Fructose is the sweetest naturally occurring monosaccharide."
+        },
+        {
+          "question": "Peptide bond is formed between",
+          "options": [
+            { "text": "Amino group and carboxyl group", "correct": true },
+            { "text": "Two carboxyl groups", "correct": false },
+            { "text": "Two amino groups", "correct": false },
+            { "text": "Side chains of amino acids", "correct": false }
+          ],
+          "explanation": "Peptide bond is a covalent bond linking amino group of one amino acid with carboxyl of another."
+        },
+        {
+          "question": "Which lipid is the main component of cell membrane?",
+          "options": [
+            { "text": "Phospholipids", "correct": true },
+            { "text": "Triglycerides", "correct": false },
+            { "text": "Cholesterol esters", "correct": false },
+            { "text": "Free fatty acids", "correct": false }
+          ],
+          "explanation": "Phospholipids form the lipid bilayer of membranes."
+        },
+        {
+          "question": "DNA is composed of",
+          "options": [
+            { "text": "Deoxyribose sugar, phosphate, nitrogenous base", "correct": true },
+            { "text": "Ribose sugar only", "correct": false },
+            { "text": "Amino acids", "correct": false },
+            { "text": "Fatty acids and sugar", "correct": false }
+          ],
+          "explanation": "DNA is a polymer of nucleotides."
+        },
+        {
+          "question": "Glycogen is stored mainly in",
+          "options": [
+            { "text": "Liver and skeletal muscle", "correct": true },
+            { "text": "Brain only", "correct": false },
+            { "text": "Kidneys only", "correct": false },
+            { "text": "Fat tissue", "correct": false }
+          ],
+          "explanation": "Liver maintains blood glucose; muscle uses glycogen locally."
+        },
+        {
+          "question": "Essential amino acids are",
+          "options": [
+            { "text": "Not synthesized by the body", "correct": true },
+            { "text": "Synthesized by liver", "correct": false },
+            { "text": "Synthesized by muscle", "correct": false },
+            { "text": "Synthesized from glucose", "correct": false }
+          ],
+          "explanation": "Essential amino acids must be obtained from diet."
+        },
+        {
+          "question": "Sphingolipids are rich in",
+          "options": [
+            { "text": "Sphingosine and fatty acid", "correct": true },
+            { "text": "Glycerol", "correct": false },
+            { "text": "Carbohydrates only", "correct": false },
+            { "text": "Nucleotides", "correct": false }
+          ],
+          "explanation": "Sphingolipids have a sphingosine backbone."
+        },
+        {
+          "question": "Which vitamin is a cofactor for carboxylation reactions?",
+          "options": [
+            { "text": "Vitamin K", "correct": true },
+            { "text": "Vitamin D", "correct": false },
+            { "text": "Vitamin C", "correct": false },
+            { "text": "Vitamin B12", "correct": false }
+          ],
+          "explanation": "Vitamin K is essential for gamma-carboxylation of glutamate residues."
+        },
+        {
+          "question": "Cholesterol is a precursor for",
+          "options": [
+            { "text": "Steroid hormones", "correct": true },
+            { "text": "Triglycerides", "correct": false },
+            { "text": "Phospholipids", "correct": false },
+            { "text": "Glucose", "correct": false }
+          ],
+          "explanation": "Cholesterol is the base for steroid hormone synthesis."
+        },
+        {
+          "question": "Which carbohydrate is reducing sugar?",
+          "options": [
+            { "text": "Glucose", "correct": true },
+            { "text": "Sucrose", "correct": false },
+            { "text": "Starch", "correct": false },
+            { "text": "Cellulose", "correct": false }
+          ],
+          "explanation": "Glucose has a free aldehyde group and is reducing."
+        }
+      ]
+    },
+    {
+      "title": "Enzymes",
+      "mcqs": [
+        {
+          "question": "Enzymes are",
+          "options": [
+            { "text": "Biological catalysts", "correct": true },
+            { "text": "Structural proteins only", "correct": false },
+            { "text": "Energy sources", "correct": false },
+            { "text": "Lipids", "correct": false }
+          ],
+          "explanation": "Enzymes speed up chemical reactions without being consumed."
+        },
+        {
+          "question": "Km of an enzyme represents",
+          "options": [
+            { "text": "Substrate concentration at 1/2 Vmax", "correct": true },
+            { "text": "Maximal velocity", "correct": false },
+            { "text": "Activation energy", "correct": false },
+            { "text": "Enzyme concentration", "correct": false }
+          ],
+          "explanation": "Km indicates enzyme affinity for substrate."
+        },
+        {
+          "question": "Allosteric enzymes",
+          "options": [
+            { "text": "Have regulatory sites apart from active site", "correct": true },
+            { "text": "Are inhibited only by substrate", "correct": false },
+            { "text": "Are not regulated", "correct": false },
+            { "text": "Are not proteins", "correct": false }
+          ],
+          "explanation": "Allosteric enzymes have effector binding sites."
+        },
+        {
+          "question": "Competitive inhibition affects",
+          "options": [
+            { "text": "Km increases, Vmax unchanged", "correct": true },
+            { "text": "Vmax decreases", "correct": false },
+            { "text": "Both Km and Vmax decrease", "correct": false },
+            { "text": "Enzyme degraded", "correct": false }
+          ],
+          "explanation": "Competitor binds active site, raising Km."
+        },
+        {
+          "question": "Non-competitive inhibition affects",
+          "options": [
+            { "text": "Vmax decreases, Km unchanged", "correct": true },
+            { "text": "Km increases", "correct": false },
+            { "text": "Both Vmax and Km increase", "correct": false },
+            { "text": "Substrate is consumed", "correct": false }
+          ],
+          "explanation": "Inhibitor binds elsewhere, lowering effective enzyme activity."
+        },
+        {
+          "question": "Cofactors are",
+          "options": [
+            { "text": "Non-protein components required for activity", "correct": true },
+            { "text": "All proteins", "correct": false },
+            { "text": "Lipids", "correct": false },
+            { "text": "Sugars", "correct": false }
+          ],
+          "explanation": "Cofactors include metals or organic molecules."
+        },
+        {
+          "question": "Enzyme with Michaelis-Menten kinetics shows",
+          "options": [
+            { "text": "Hyperbolic velocity-substrate curve", "correct": true },
+            { "text": "Sigmoidal curve", "correct": false },
+            { "text": "Linear curve", "correct": false },
+            { "text": "No curve", "correct": false }
+          ],
+          "explanation": "Classic enzymes exhibit hyperbolic relationship."
+        },
+        {
+          "question": "Zymogens are",
+          "options": [
+            { "text": "Inactive enzyme precursors", "correct": true },
+            { "text": "Active enzymes", "correct": false },
+            { "text": "Cofactors", "correct": false },
+            { "text": "Inhibitors", "correct": false }
+          ],
+          "explanation": "Activated by cleavage or modification."
+        },
+        {
+          "question": "Enzyme activity depends on",
+          "options": [
+            { "text": "Temperature, pH, substrate concentration", "correct": true },
+            { "text": "Only substrate", "correct": false },
+            { "text": "Only enzyme mass", "correct": false },
+            { "text": "Only pressure", "correct": false }
+          ],
+          "explanation": "Optimal conditions are required for maximal activity."
+        },
+        {
+          "question": "Lyases catalyze",
+          "options": [
+            { "text": "Addition or removal of groups without hydrolysis", "correct": true },
+            { "text": "Oxidation reactions only", "correct": false },
+            { "text": "Hydrolysis", "correct": false },
+            { "text": "Isomerization", "correct": false }
+          ],
+          "explanation": "Lyases break or form bonds by mechanisms other than hydrolysis."
+        }
+      ]
+    }
+  ]
+}

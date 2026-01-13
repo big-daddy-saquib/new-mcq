@@ -1,0 +1,428 @@
+{
+  "title": "Physiology",
+  "topics": [
+    {
+      "title": "Homeostasis and Cellular Physiology",
+      "mcqs": [
+        {
+          "question": "Homeostasis refers to",
+          "options": [
+            { "text": "Constant external environment", "correct": false },
+            { "text": "Maintenance of internal environment", "correct": true },
+            { "text": "Cell division", "correct": false },
+            { "text": "Energy production", "correct": false }
+          ],
+          "explanation": "Homeostasis maintains a stable internal environment."
+        },
+        {
+          "question": "The control center in homeostasis usually lies in",
+          "options": [
+            { "text": "Receptor", "correct": false },
+            { "text": "Effector", "correct": false },
+            { "text": "Central nervous system", "correct": true },
+            { "text": "Peripheral tissues", "correct": false }
+          ],
+          "explanation": "CNS integrates signals and coordinates responses."
+        },
+        {
+          "question": "Negative feedback is characterized by",
+          "options": [
+            { "text": "Amplification of response", "correct": false },
+            { "text": "Opposition to initial change", "correct": true },
+            { "text": "No control mechanism", "correct": false },
+            { "text": "Hormonal surge", "correct": false }
+          ],
+          "explanation": "Negative feedback restores normal value."
+        },
+        {
+          "question": "Positive feedback is best exemplified by",
+          "options": [
+            { "text": "Body temperature regulation", "correct": false },
+            { "text": "Blood glucose regulation", "correct": false },
+            { "text": "Parturition", "correct": true },
+            { "text": "Osmoregulation", "correct": false }
+          ],
+          "explanation": "Oxytocin release during labor is a positive feedback."
+        },
+        {
+          "question": "Intracellular fluid constitutes approximately",
+          "options": [
+            { "text": "One third of body water", "correct": false },
+            { "text": "Two thirds of body water", "correct": true },
+            { "text": "One fourth of body water", "correct": false },
+            { "text": "Half of body water", "correct": false }
+          ],
+          "explanation": "ICF makes up about two thirds of total body water."
+        },
+        {
+          "question": "Cell membrane is mainly composed of",
+          "options": [
+            { "text": "Proteins only", "correct": false },
+            { "text": "Phospholipid bilayer", "correct": true },
+            { "text": "Carbohydrates", "correct": false },
+            { "text": "Cholesterol only", "correct": false }
+          ],
+          "explanation": "Phospholipids form the basic structure."
+        },
+        {
+          "question": "Most cellular enzymes are located in",
+          "options": [
+            { "text": "Nucleus", "correct": false },
+            { "text": "Cytoplasm", "correct": true },
+            { "text": "Mitochondria", "correct": false },
+            { "text": "Cell membrane", "correct": false }
+          ],
+          "explanation": "Most metabolic reactions occur in cytoplasm."
+        },
+        {
+          "question": "Primary function of mitochondria is",
+          "options": [
+            { "text": "Protein synthesis", "correct": false },
+            { "text": "ATP production", "correct": true },
+            { "text": "Lipid storage", "correct": false },
+            { "text": "DNA replication", "correct": false }
+          ],
+          "explanation": "Mitochondria generate ATP."
+        },
+        {
+          "question": "Lysosomes are involved in",
+          "options": [
+            { "text": "Energy production", "correct": false },
+            { "text": "Intracellular digestion", "correct": true },
+            { "text": "Protein synthesis", "correct": false },
+            { "text": "Ion transport", "correct": false }
+          ],
+          "explanation": "Lysosomes contain digestive enzymes."
+        },
+        {
+          "question": "Ribosomes are responsible for",
+          "options": [
+            { "text": "DNA synthesis", "correct": false },
+            { "text": "Protein synthesis", "correct": true },
+            { "text": "Lipid synthesis", "correct": false },
+            { "text": "ATP generation", "correct": false }
+          ],
+          "explanation": "Proteins are synthesized on ribosomes."
+        }
+      ]
+    },
+
+    {
+      "title": "Cellular Messengers and Receptors",
+      "mcqs": [
+        {
+          "question": "First messenger refers to",
+          "options": [
+            { "text": "cAMP", "correct": false },
+            { "text": "Hormone", "correct": true },
+            { "text": "Calcium", "correct": false },
+            { "text": "ATP", "correct": false }
+          ],
+          "explanation": "Hormone acts as the first messenger."
+        },
+        {
+          "question": "Second messenger example is",
+          "options": [
+            { "text": "Insulin", "correct": false },
+            { "text": "cAMP", "correct": true },
+            { "text": "Thyroxine", "correct": false },
+            { "text": "Cortisol", "correct": false }
+          ],
+          "explanation": "cAMP mediates intracellular signaling."
+        },
+        {
+          "question": "Steroid hormone receptors are located in",
+          "options": [
+            { "text": "Cell membrane", "correct": false },
+            { "text": "Cytoplasm or nucleus", "correct": true },
+            { "text": "Mitochondria", "correct": false },
+            { "text": "Golgi apparatus", "correct": false }
+          ],
+          "explanation": "Steroid hormones cross membranes easily."
+        },
+        {
+          "question": "G protein coupled receptors activate",
+          "options": [
+            { "text": "Ion channels only", "correct": false },
+            { "text": "Second messenger pathways", "correct": true },
+            { "text": "DNA transcription directly", "correct": false },
+            { "text": "Protein synthesis only", "correct": false }
+          ],
+          "explanation": "GPCRs act via second messengers."
+        },
+        {
+          "question": "IP3 mainly causes release of",
+          "options": [
+            { "text": "Sodium", "correct": false },
+            { "text": "Calcium from ER", "correct": true },
+            { "text": "Potassium", "correct": false },
+            { "text": "Chloride", "correct": false }
+          ],
+          "explanation": "IP3 releases calcium from endoplasmic reticulum."
+        },
+        {
+          "question": "Tyrosine kinase receptors are used by",
+          "options": [
+            { "text": "Insulin", "correct": true },
+            { "text": "Adrenaline", "correct": false },
+            { "text": "Histamine", "correct": false },
+            { "text": "Acetylcholine", "correct": false }
+          ],
+          "explanation": "Insulin acts via tyrosine kinase receptor."
+        },
+        {
+          "question": "Down regulation of receptors occurs due to",
+          "options": [
+            { "text": "Low hormone levels", "correct": false },
+            { "text": "Prolonged hormone exposure", "correct": true },
+            { "text": "Receptor mutation", "correct": false },
+            { "text": "Second messenger deficiency", "correct": false }
+          ],
+          "explanation": "Chronic exposure reduces receptor number."
+        },
+        {
+          "question": "Autocrine signaling acts on",
+          "options": [
+            { "text": "Neighboring cells", "correct": false },
+            { "text": "Same cell", "correct": true },
+            { "text": "Distant organs", "correct": false },
+            { "text": "Nervous system only", "correct": false }
+          ],
+          "explanation": "Autocrine signals act on the same cell."
+        },
+        {
+          "question": "Paracrine signaling acts on",
+          "options": [
+            { "text": "Same cell", "correct": false },
+            { "text": "Adjacent cells", "correct": true },
+            { "text": "Bloodstream", "correct": false },
+            { "text": "Endocrine glands", "correct": false }
+          ],
+          "explanation": "Paracrine affects nearby cells."
+        },
+        {
+          "question": "Endocrine signaling involves",
+          "options": [
+            { "text": "Local diffusion", "correct": false },
+            { "text": "Blood transport", "correct": true },
+            { "text": "Synaptic cleft", "correct": false },
+            { "text": "Gap junctions", "correct": false }
+          ],
+          "explanation": "Hormones travel through blood."
+        }
+      ]
+    },
+
+    {
+      "title": "Transport Across Cell Membrane",
+      "mcqs": [
+        {
+          "question": "Passive transport does not require",
+          "options": [
+            { "text": "Carrier protein", "correct": false },
+            { "text": "Energy", "correct": true },
+            { "text": "Concentration gradient", "correct": false },
+            { "text": "Membrane", "correct": false }
+          ],
+          "explanation": "Passive transport occurs without ATP."
+        },
+        {
+          "question": "Facilitated diffusion requires",
+          "options": [
+            { "text": "ATP", "correct": false },
+            { "text": "Carrier protein", "correct": true },
+            { "text": "Against gradient movement", "correct": false },
+            { "text": "Vesicles", "correct": false }
+          ],
+          "explanation": "Carrier proteins help diffusion."
+        },
+        {
+          "question": "Active transport moves substances",
+          "options": [
+            { "text": "Along concentration gradient", "correct": false },
+            { "text": "Against concentration gradient", "correct": true },
+            { "text": "Without energy", "correct": false },
+            { "text": "Through pores only", "correct": false }
+          ],
+          "explanation": "Energy is required to move against gradient."
+        },
+        {
+          "question": "Sodium potassium pump exchanges",
+          "options": [
+            { "text": "2 Na out, 3 K in", "correct": false },
+            { "text": "3 Na out, 2 K in", "correct": true },
+            { "text": "1 Na out, 1 K in", "correct": false },
+            { "text": "2 Na in, 2 K out", "correct": false }
+          ],
+          "explanation": "Na K ATPase maintains ionic gradients."
+        },
+        {
+          "question": "Osmosis refers to movement of",
+          "options": [
+            { "text": "Solute", "correct": false },
+            { "text": "Water", "correct": true },
+            { "text": "Ions", "correct": false },
+            { "text": "Proteins", "correct": false }
+          ],
+          "explanation": "Water moves across semipermeable membrane."
+        },
+        {
+          "question": "Endocytosis involves",
+          "options": [
+            { "text": "Diffusion", "correct": false },
+            { "text": "Vesicle formation", "correct": true },
+            { "text": "Ion channels", "correct": false },
+            { "text": "Carrier proteins", "correct": false }
+          ],
+          "explanation": "Cell engulfs material using vesicles."
+        },
+        {
+          "question": "Phagocytosis is performed mainly by",
+          "options": [
+            { "text": "RBCs", "correct": false },
+            { "text": "Macrophages", "correct": true },
+            { "text": "Platelets", "correct": false },
+            { "text": "Neurons", "correct": false }
+          ],
+          "explanation": "Macrophages engulf large particles."
+        },
+        {
+          "question": "Pinocytosis is uptake of",
+          "options": [
+            { "text": "Solid particles", "correct": false },
+            { "text": "Fluids", "correct": true },
+            { "text": "Gases", "correct": false },
+            { "text": "Ions", "correct": false }
+          ],
+          "explanation": "Pinocytosis is cell drinking."
+        },
+        {
+          "question": "Secondary active transport depends on",
+          "options": [
+            { "text": "ATP directly", "correct": false },
+            { "text": "Ion gradient", "correct": true },
+            { "text": "Vesicles", "correct": false },
+            { "text": "Diffusion only", "correct": false }
+          ],
+          "explanation": "Uses gradient created by primary active transport."
+        },
+        {
+          "question": "Antiport transport means",
+          "options": [
+            { "text": "Same direction movement", "correct": false },
+            { "text": "Opposite direction movement", "correct": true },
+            { "text": "No movement", "correct": false },
+            { "text": "Passive transport", "correct": false }
+          ],
+          "explanation": "Antiport moves substances in opposite directions."
+        }
+      ]
+    },
+
+    {
+      "title": "Membrane Potentials and Body Fluids",
+      "mcqs": [
+        {
+          "question": "Resting membrane potential of neuron is approximately",
+          "options": [
+            { "text": "+30 mV", "correct": false },
+            { "text": "-70 mV", "correct": true },
+            { "text": "0 mV", "correct": false },
+            { "text": "-30 mV", "correct": false }
+          ],
+          "explanation": "Neurons have a resting potential around -70 mV."
+        },
+        {
+          "question": "Major intracellular cation is",
+          "options": [
+            { "text": "Sodium", "correct": false },
+            { "text": "Potassium", "correct": true },
+            { "text": "Calcium", "correct": false },
+            { "text": "Chloride", "correct": false }
+          ],
+          "explanation": "Potassium is high inside cells."
+        },
+        {
+          "question": "Depolarization occurs due to influx of",
+          "options": [
+            { "text": "Potassium", "correct": false },
+            { "text": "Sodium", "correct": true },
+            { "text": "Chloride", "correct": false },
+            { "text": "Calcium only", "correct": false }
+          ],
+          "explanation": "Sodium entry reduces negativity."
+        },
+        {
+          "question": "Repolarization is caused by",
+          "options": [
+            { "text": "Sodium influx", "correct": false },
+            { "text": "Potassium efflux", "correct": true },
+            { "text": "Calcium influx", "correct": false },
+            { "text": "Chloride influx", "correct": false }
+          ],
+          "explanation": "Potassium leaving cell restores negativity."
+        },
+        {
+          "question": "Absolute refractory period is due to",
+          "options": [
+            { "text": "Open sodium channels", "correct": false },
+            { "text": "Inactivated sodium channels", "correct": true },
+            { "text": "Open potassium channels", "correct": false },
+            { "text": "Chloride movement", "correct": false }
+          ],
+          "explanation": "Sodium channels cannot reopen."
+        },
+        {
+          "question": "Total body water is approximately",
+          "options": [
+            { "text": "40 percent body weight", "correct": false },
+            { "text": "60 percent body weight", "correct": true },
+            { "text": "80 percent body weight", "correct": false },
+            { "text": "30 percent body weight", "correct": false }
+          ],
+          "explanation": "Average adult has 60 percent body water."
+        },
+        {
+          "question": "Extracellular fluid includes",
+          "options": [
+            { "text": "Intracellular fluid", "correct": false },
+            { "text": "Plasma and interstitial fluid", "correct": true },
+            { "text": "CSF only", "correct": false },
+            { "text": "Urine", "correct": false }
+          ],
+          "explanation": "ECF includes plasma and interstitial fluid."
+        },
+        {
+          "question": "Major extracellular cation is",
+          "options": [
+            { "text": "Potassium", "correct": false },
+            { "text": "Sodium", "correct": true },
+            { "text": "Calcium", "correct": false },
+            { "text": "Magnesium", "correct": false }
+          ],
+          "explanation": "Sodium predominates in ECF."
+        },
+        {
+          "question": "Osmolarity of plasma is about",
+          "options": [
+            { "text": "150 mOsm/L", "correct": false },
+            { "text": "300 mOsm/L", "correct": true },
+            { "text": "450 mOsm/L", "correct": false },
+            { "text": "600 mOsm/L", "correct": false }
+          ],
+          "explanation": "Normal plasma osmolarity is around 300."
+        },
+        {
+          "question": "Edema results from imbalance of",
+          "options": [
+            { "text": "Electrolytes only", "correct": false },
+            { "text": "Starling forces", "correct": true },
+            { "text": "Membrane potential", "correct": false },
+            { "text": "Action potential", "correct": false }
+          ],
+          "explanation": "Fluid shift depends on Starling forces."
+        }
+      ]
+    }
+  ]
+}

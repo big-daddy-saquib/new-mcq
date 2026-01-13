@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QBank</title>
+
+<style>
+:root {
+  --green: #4eb153;
+  --light-green: #c8e6c9cf;
+  --red: #c73d3dbf;
+  --light-red: #ffcdd2;
+  --grey: #bdbdbd;
+  --bg: #f4f6f8;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  background: var(--bg);
+  padding: 0 16px 200px 16px;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 56px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.nav-left, .nav-right {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4fc3d0;
+  cursor: pointer;
+}
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Topic cards */
+.top-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card-content h3 { margin:0; font-weight:500; color:#494747; }
+.card-content p { margin:0; font-size:14px; color:#666; }
+
+/* Quiz */
+.timer-container { width:100%; height:6px; background:#ddd; border-radius:4px; overflow:hidden; margin:12px 0; }
+.timer-bar { height:100%; width:100%; background:var(--green); transition: width 1s linear; }
+
+.progress-wrapper { display:flex; justify-content:center; margin-bottom:12px; }
+.dot { width:12px; height:12px; border-radius:50%; background:#ccc; margin:0 4px; }
+.dot.active { background:#555; }
+.dot.correct { background:var(--green); }
+.dot.wrong { background:var(--red); }
+.dot.skipped { background:var(--grey); }
+
+.quiz-card {
+  background: #fff;
+  padding:16px;
+  border-radius:10px;
+  max-width:720px;
+  margin:auto;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+.option {
+  padding:14px;
+  margin-bottom:10px;
+  background:#eeeeee;
+  border-radius:6px;
+  cursor:pointer;
+  text-align:center;
+}
+.option img {
+  max-width:150px;
+  display:block;
+  margin:6px auto;
+}
+.option.correct { background:var(--light-green); color:var(--green); font-weight:bold; }
+.option.wrong { background:var(--light-red); color:var(--red); font-weight:bold; }
+.option.disabled { pointer-events:none; }
+
+#nextBtn, #restartBtn, #goBackBtn {
+  margin-top:16px;
+  padding:12px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  color:white;
+}
+#nextBtn { background:var(--green); display:none; }
+#restartBtn { background:var(--green); }
+#goBackBtn { background:#4fc3d0; }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="nav-left" onclick="goBackHome()">← Home</div>
+  <div class="nav-center" id="subjectTitle">Loading…</div>
+  <div class="nav-right" onclick="goBackTopics()">Topics</div>
+</div>
+
+<div id="topicsContainer" class="top-cards"></div>
+<div id="quizContainer"></div>
+
+<script>
+// Get subject from URL
+const urlParams = new URLSearchParams(window.location.search);
+const subjectKey = urlParams.get("subject");
+if(!subjectKey){
+  document.body.innerHTML="<h2>Please select a subject from homepage</h2>";
+  throw new Error("No subject selected");
+}
+
+let subjectData = null;
+let currentTopic = null;
+
+// Load subject JSON
+fetch(`data/${subjectKey}.json`)
+  .then(res=>res.json())
+  .then(data=>{
+    subjectData = data;
+    document.getElementById("subjectTitle").textContent = data.title;
+    renderTopics();
+  });
+
+// Render topics
+function renderTopics(){
+  const container = document.getElementById("topicsContainer");
+  container.innerHTML = "";
+  subjectData.topics.forEach((topic,i)=>{
+    const div = document.createElement("div");
+    div.className="card";
+    div.innerHTML=`<div class="card-content"><h3>${topic.title}</h3><p>${topic.mcqs.length} MCQs</p></div>`;
+    div.onclick=()=>startQuiz(topic.mcqs);
+    container.appendChild(div);
+  });
+  document.getElementById("quizContainer").style.display="none";
+  container.style.display="grid";
+}
+
+// Quiz logic
+function startQuiz(mcqs){
+  currentTopic = mcqs;
+  let index=0;
+  let answers=[];
+  const container = document.getElementById("quizContainer");
+  const topicsDiv = document.getElementById("topicsContainer");
+  topicsDiv.style.display="none";
+  container.style.display="block";
+
+  const timerContainer = document.createElement("div");
+  timerContainer.className="timer-container";
+  const timerBar = document.createElement("div");
+  timerBar.className="timer-bar";
+  timerContainer.appendChild(timerBar);
+  container.appendChild(timerContainer);
+
+  const progressWrapper = document.createElement("div");
+  progressWrapper.className="progress-wrapper";
+  container.appendChild(progressWrapper);
+
+  function renderProgressDots(){
+    progressWrapper.innerHTML="";
+    currentTopic.forEach((_,i)=>{
+      const dot = document.createElement("div");
+      dot.className="dot";
+      if(answers[i]) dot.classList.add(answers[i]);
+      if(i===index) dot.classList.add("active");
+      progressWrapper.appendChild(dot);
+    });
+  }
+
+  function renderQuestion(){
+    container.innerHTML="";
+    container.appendChild(timerContainer);
+    container.appendChild(progressWrapper);
+
+    const q = currentTopic[index];
+    const quizDiv = document.createElement("div");
+    quizDiv.className="quiz-card";
+
+    // Question image
+    let questionImgHTML = "";
+    if(q.image){
+      questionImgHTML = `<div style="text-align:center; margin:10px 0;">
+          <img src="${q.image}" alt="Question Image" style="max-width:100%; border-radius:8px;">
+        </div>`;
+    }
+
+    quizDiv.innerHTML=`
+      <div class="question"><strong>Q${index+1}:</strong> ${q.question}</div>
+      ${questionImgHTML}
+      <div id="options"></div>
+      <div class="explanation" id="explanation" style="display:none;margin-top:12px;"></div>
+      <button id="nextBtn">Next</button>
+    `;
+    container.appendChild(quizDiv);
+
+    const optionsEl = quizDiv.querySelector("#options");
+    const explanationEl = quizDiv.querySelector("#explanation");
+    const nextBtn = quizDiv.querySelector("#nextBtn");
+    nextBtn.style.display="none";
+
+    q.options.forEach(opt=>{
+      const div = document.createElement("div");
+      div.className="option";
+
+      let optionContent = "";
+      if(opt.image){
+        optionContent = `<img src="${opt.image}" alt="Option Image">`;
+      }
+      optionContent += `<span>${opt.text || ""}</span>`;
+      div.innerHTML = optionContent;
+
+      div.onclick = () => {
+        // Disable all options
+        quizDiv.querySelectorAll(".option").forEach(o=>o.classList.add("disabled"));
+
+        // Highlight correct and wrong options
+        quizDiv.querySelectorAll(".option").forEach(o=>{
+          if(o===div && opt.correct){
+            o.classList.add("correct");
+            answers.push("correct");
+          } else if(o===div && !opt.correct){
+            o.classList.add("wrong");
+            answers.push("wrong");
+          }
+
+          // Mark the correct option green
+          const optionIndex = Array.from(optionsEl.children).indexOf(o);
+          if(q.options[optionIndex].correct){
+            o.classList.add("correct");
+          }
+        });
+
+        explanationEl.style.display="block";
+        explanationEl.innerHTML=`<strong>Explanation:</strong> ${q.explanation}`;
+        nextBtn.style.display="block";
+        renderProgressDots();
+      };
+
+      optionsEl.appendChild(div);
+    });
+
+    // Timer
+    let time = 60;
+    timerBar.style.width="100%";
+    const timer = setInterval(()=>{
+      time--;
+      timerBar.style.width=(time/60*100)+"%";
+      if(time<=0){
+        clearInterval(timer);
+        answers.push("skipped");
+        renderProgressDots();
+        explanationEl.style.display="block";
+        explanationEl.innerHTML=`<strong>Explanation:</strong> ${q.explanation}`;
+        nextBtn.style.display="block";
+
+        // Mark correct option when skipped
+        quizDiv.querySelectorAll(".option").forEach((o, idx)=>{
+          if(q.options[idx].correct) o.classList.add("correct");
+          o.classList.add("disabled");
+        });
+      }
+    },1000);
+
+    nextBtn.onclick=()=>{
+      clearInterval(timer);
+      index++;
+      if(index<currentTopic.length) renderQuestion();
+      else renderScore();
+    };
+  }
+
+  function renderScore(){
+    container.innerHTML=`
+      <div style="text-align:center; margin-top:20px;">
+        <h2>Score</h2>
+        <p>${answers.filter(a=>"correct"===a).length} / ${currentTopic.length}</p>
+        <button id="restartBtn">Restart Topic</button>
+        <button id="goBackBtn">Back to Topics</button>
+      </div>
+    `;
+    document.getElementById("restartBtn").onclick=()=>startQuiz(currentTopic);
+    document.getElementById("goBackBtn").onclick=()=>renderTopics();
+  }
+
+  renderProgressDots();
+  renderQuestion();
+}
+
+// Navbar
+function goBackHome(){ window.location.href="Q-bank.html"; }
+function goBackTopics(){ renderTopics(); document.getElementById("quizContainer").style.display="none"; }
+
+</script>
+</body>
+</html>

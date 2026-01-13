@@ -1,0 +1,658 @@
+{
+  "title": "Pathology",
+  "topics": [
+
+
+     {
+      "title": "Cellular Responses and Injury",
+      "mcqs": [
+        {
+          "question": "Increase in cell size due to increased functional demand is called",
+          "options": [
+            { "text": "Hyperplasia", "correct": false },
+            { "text": "Metaplasia", "correct": false },
+            { "text": "Hypertrophy", "correct": true },
+            { "text": "Dysplasia", "correct": false }
+          ],
+          "explanation": "Hypertrophy is an increase in cell size due to increased functional demand."
+        },
+        {
+          "question": "Squamous metaplasia is commonly seen in",
+          "options": [
+            { "text": "Cervix", "correct": false },
+            { "text": "Bronchi of smokers", "correct": true },
+            { "text": "Liver", "correct": false },
+            { "text": "Kidney", "correct": false }
+          ],
+          "explanation": "Smoking causes replacement of normal ciliated epithelium by stratified squamous epithelium."
+        },
+        {
+          "question": "A reversible feature of cell injury is",
+          "options": [
+            { "text": "Pyknosis", "correct": false },
+            { "text": "Karyorrhexis", "correct": false },
+            { "text": "Cell swelling", "correct": true },
+            { "text": "Membrane rupture", "correct": false }
+          ],
+          "explanation": "Cell swelling is the earliest reversible manifestation of cell injury."
+        },
+        {
+          "question": "The earliest event in hypoxic cell injury is",
+          "options": [
+            { "text": "DNA fragmentation", "correct": false },
+            { "text": "ATP depletion", "correct": true },
+            { "text": "Lysosomal rupture", "correct": false },
+            { "text": "Calcium influx", "correct": false }
+          ],
+          "explanation": "ATP depletion occurs first due to impaired oxidative phosphorylation."
+        },
+        {
+          "question": "Coagulative necrosis preserves",
+          "options": [
+            { "text": "Cell nuclei", "correct": false },
+            { "text": "Tissue architecture", "correct": true },
+            { "text": "Enzymatic activity", "correct": false },
+            { "text": "Inflammatory cells", "correct": false }
+          ],
+          "explanation": "In coagulative necrosis, the tissue framework is preserved for some time."
+        },
+        {
+          "question": "Caseous necrosis is characteristic of",
+          "options": [
+            { "text": "Myocardial infarction", "correct": false },
+            { "text": "Tuberculosis", "correct": true },
+            { "text": "Brain infarct", "correct": false },
+            { "text": "Acute pancreatitis", "correct": false }
+          ],
+          "explanation": "Caseous necrosis is classically seen in tuberculosis."
+        },
+        {
+          "question": "Apoptosis differs from necrosis because it",
+          "options": [
+            { "text": "Causes inflammation", "correct": false },
+            { "text": "Is energy dependent", "correct": true },
+            { "text": "Results from trauma", "correct": false },
+            { "text": "Causes cell swelling", "correct": false }
+          ],
+          "explanation": "Apoptosis is an ATP-dependent programmed cell death without inflammation."
+        },
+        {
+          "question": "Lipofuscin accumulation indicates",
+          "options": [
+            { "text": "Iron overload", "correct": false },
+            { "text": "Fatty change", "correct": false },
+            { "text": "Wear and tear pigment", "correct": true },
+            { "text": "Copper toxicity", "correct": false }
+          ],
+          "explanation": "Lipofuscin accumulates with aging due to lipid peroxidation."
+        },
+        {
+          "question": "Fatty change is most commonly seen in",
+          "options": [
+            { "text": "Kidney", "correct": false },
+            { "text": "Liver", "correct": true },
+            { "text": "Spleen", "correct": false },
+            { "text": "Brain", "correct": false }
+          ],
+          "explanation": "The liver is most susceptible to triglyceride accumulation."
+        },
+        {
+          "question": "Dystrophic calcification occurs in",
+          "options": [
+            { "text": "Hypercalcemia", "correct": false },
+            { "text": "Normal tissues", "correct": false },
+            { "text": "Dead or degenerated tissues", "correct": true },
+            { "text": "Bone marrow", "correct": false }
+          ],
+          "explanation": "Dystrophic calcification occurs in necrotic tissues with normal serum calcium."
+        }
+      ]
+    }, 
+
+
+
+
+    {
+      "title": "Inflammation and Repair",
+      "mcqs": [
+        {
+          "question": "The earliest cellular responders in acute inflammation are",
+          "options": [
+            { "text": "Macrophages", "correct": false },
+            { "text": "Neutrophils", "correct": true },
+            { "text": "Lymphocytes", "correct": false },
+            { "text": "Plasma cells", "correct": false }
+          ],
+          "explanation": "Neutrophils are the first cells to arrive at the site of acute inflammation."
+        },
+        {
+          "question": "Which mediator causes immediate vasodilation in inflammation?",
+          "options": [
+            { "text": "Histamine", "correct": true },
+            { "text": "Bradykinin", "correct": false },
+            { "text": "Leukotriene B4", "correct": false },
+            { "text": "IL-1", "correct": false }
+          ],
+          "explanation": "Histamine released from mast cells causes rapid vasodilation."
+        },
+        {
+          "question": "Margination of leukocytes occurs due to",
+          "options": [
+            { "text": "Increased blood viscosity", "correct": false },
+            { "text": "Slowing of blood flow", "correct": true },
+            { "text": "Vasoconstriction", "correct": false },
+            { "text": "Platelet aggregation", "correct": false }
+          ],
+          "explanation": "Reduced blood flow allows leukocytes to move to the periphery."
+        },
+        {
+          "question": "Chronic inflammation is characterized by",
+          "options": [
+            { "text": "Neutrophils only", "correct": false },
+            { "text": "Edema only", "correct": false },
+            { "text": "Lymphocytes and fibrosis", "correct": true },
+            { "text": "Fibrin deposition", "correct": false }
+          ],
+          "explanation": "Chronic inflammation shows mononuclear cells and fibrosis."
+        },
+        {
+          "question": "Granulomas are composed mainly of",
+          "options": [
+            { "text": "Neutrophils", "correct": false },
+            { "text": "Eosinophils", "correct": false },
+            { "text": "Epithelioid macrophages", "correct": true },
+            { "text": "Mast cells", "correct": false }
+          ],
+          "explanation": "Activated macrophages form epithelioid cells in granulomas."
+        },
+        {
+          "question": "Major growth factor for angiogenesis is",
+          "options": [
+            { "text": "TGF-beta", "correct": false },
+            { "text": "VEGF", "correct": true },
+            { "text": "PDGF", "correct": false },
+            { "text": "IL-8", "correct": false }
+          ],
+          "explanation": "VEGF promotes new blood vessel formation."
+        },
+        {
+          "question": "Initial collagen laid down during wound healing is",
+          "options": [
+            { "text": "Type I", "correct": false },
+            { "text": "Type II", "correct": false },
+            { "text": "Type III", "correct": true },
+            { "text": "Type IV", "correct": false }
+          ],
+          "explanation": "Type III collagen is later replaced by type I."
+        },
+        {
+          "question": "Healing by primary intention occurs when",
+          "options": [
+            { "text": "There is extensive tissue loss", "correct": false },
+            { "text": "Wound edges are closely approximated", "correct": true },
+            { "text": "Infection is present", "correct": false },
+            { "text": "Granulation tissue is excessive", "correct": false }
+          ],
+          "explanation": "Primary intention occurs in clean surgical wounds."
+        },
+        {
+          "question": "Keloid formation results from excess",
+          "options": [
+            { "text": "Elastin", "correct": false },
+            { "text": "Collagen type I", "correct": true },
+            { "text": "Fibrin", "correct": false },
+            { "text": "Proteoglycans", "correct": false }
+          ],
+          "explanation": "Keloids are due to excessive collagen deposition."
+        },
+        {
+          "question": "Pus consists mainly of",
+          "options": [
+            { "text": "Fibrin", "correct": false },
+            { "text": "Dead neutrophils", "correct": true },
+            { "text": "Lymphocytes", "correct": false },
+            { "text": "Platelets", "correct": false }
+          ],
+          "explanation": "Pus contains dead neutrophils and necrotic debris."
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+      "title": "Hemodynamic Disorders",
+      "mcqs": [
+        {
+          "question": "Edema is most commonly caused by",
+          "options": [
+            { "text": "Decreased hydrostatic pressure", "correct": false },
+            { "text": "Increased vascular permeability", "correct": true },
+            { "text": "Increased oncotic pressure", "correct": false },
+            { "text": "Increased lymphatic drainage", "correct": false }
+          ],
+          "explanation": "Increased permeability allows fluid to leak into tissues."
+        },
+        {
+          "question": "Transudate differs from exudate by",
+          "options": [
+            { "text": "High protein content", "correct": false },
+            { "text": "Presence of cells", "correct": false },
+            { "text": "Low specific gravity", "correct": true },
+            { "text": "High LDH", "correct": false }
+          ],
+          "explanation": "Transudates are protein poor fluids."
+        },
+        {
+          "question": "Virchow triad includes all except",
+          "options": [
+            { "text": "Endothelial injury", "correct": false },
+            { "text": "Hypercoagulability", "correct": false },
+            { "text": "Stasis", "correct": false },
+            { "text": "Vasodilation", "correct": true }
+          ],
+          "explanation": "Vasodilation is not part of Virchow triad."
+        },
+        {
+          "question": "Most common site of venous thrombosis is",
+          "options": [
+            { "text": "Portal vein", "correct": false },
+            { "text": "Coronary artery", "correct": false },
+            { "text": "Deep veins of leg", "correct": true },
+            { "text": "Pulmonary artery", "correct": false }
+          ],
+          "explanation": "Deep leg veins are the commonest site."
+        },
+        {
+          "question": "Pulmonary emboli usually arise from",
+          "options": [
+            { "text": "Heart", "correct": false },
+            { "text": "Pelvic veins", "correct": false },
+            { "text": "Deep veins of leg", "correct": true },
+            { "text": "Portal vein", "correct": false }
+          ],
+          "explanation": "Most emboli originate from deep leg veins."
+        },
+        {
+          "question": "Red infarcts are commonly seen in",
+          "options": [
+            { "text": "Heart", "correct": false },
+            { "text": "Kidney", "correct": false },
+            { "text": "Lungs", "correct": true },
+            { "text": "Spleen", "correct": false }
+          ],
+          "explanation": "Dual blood supply causes red infarcts."
+        },
+        {
+          "question": "White infarcts occur in",
+          "options": [
+            { "text": "Liver", "correct": false },
+            { "text": "Lung", "correct": false },
+            { "text": "Kidney", "correct": true },
+            { "text": "Intestine", "correct": false }
+          ],
+          "explanation": "Solid organs with end arteries develop white infarcts."
+        },
+        {
+          "question": "Septic shock is mainly due to",
+          "options": [
+            { "text": "Blood loss", "correct": false },
+            { "text": "Peripheral vasodilation", "correct": true },
+            { "text": "Cardiac failure", "correct": false },
+            { "text": "Pulmonary embolism", "correct": false }
+          ],
+          "explanation": "Cytokines cause widespread vasodilation."
+        },
+        {
+          "question": "DIC is characterized by",
+          "options": [
+            { "text": "Bleeding only", "correct": false },
+            { "text": "Thrombosis only", "correct": false },
+            { "text": "Bleeding and thrombosis", "correct": true },
+            { "text": "Edema", "correct": false }
+          ],
+          "explanation": "Consumption of clotting factors leads to both."
+        },
+        {
+          "question": "Chronic passive congestion of liver causes",
+          "options": [
+            { "text": "Fatty liver", "correct": false },
+            { "text": "Nutmeg liver", "correct": true },
+            { "text": "Cirrhosis", "correct": false },
+            { "text": "Amyloidosis", "correct": false }
+          ],
+          "explanation": "Venous congestion produces mottled appearance."
+        }
+      ]
+    },
+
+
+
+
+    {
+      "title": "Neoplasia and Cancer Biology",
+      "mcqs": [
+        {
+          "question": "A benign tumor of fibrous tissue is called",
+          "options": [
+            { "text": "Fibrosarcoma", "correct": false },
+            { "text": "Fibroma", "correct": true },
+            { "text": "Leiomyoma", "correct": false },
+            { "text": "Adenoma", "correct": false }
+          ],
+          "explanation": "Suffix oma indicates benign tumors."
+        },
+        {
+          "question": "Hallmark of malignancy is",
+          "options": [
+            { "text": "Encapsulation", "correct": false },
+            { "text": "Anaplasia", "correct": true },
+            { "text": "Slow growth", "correct": false },
+            { "text": "Hormone dependence", "correct": false }
+          ],
+          "explanation": "Anaplasia reflects loss of differentiation."
+        },
+        {
+          "question": "Most common route of metastasis for carcinomas is",
+          "options": [
+            { "text": "Blood", "correct": false },
+            { "text": "Lymphatics", "correct": true },
+            { "text": "Direct spread", "correct": false },
+            { "text": "CSF", "correct": false }
+          ],
+          "explanation": "Carcinomas spread mainly via lymphatics."
+        },
+        {
+          "question": "Carcinoma in situ indicates",
+          "options": [
+            { "text": "Invasion of basement membrane", "correct": false },
+            { "text": "Full thickness dysplasia", "correct": true },
+            { "text": "No dysplasia", "correct": false },
+            { "text": "Metastasis", "correct": false }
+          ],
+          "explanation": "Basement membrane remains intact."
+        },
+        {
+          "question": "Proto-oncogenes become oncogenes due to",
+          "options": [
+            { "text": "Loss of function", "correct": false },
+            { "text": "Gain of function", "correct": true },
+            { "text": "Deletion", "correct": false },
+            { "text": "Silencing", "correct": false }
+          ],
+          "explanation": "Oncogenes promote uncontrolled proliferation."
+        },
+        {
+          "question": "Function of p53 gene is",
+          "options": [
+            { "text": "Promote cell cycle", "correct": false },
+            { "text": "Prevent apoptosis", "correct": false },
+            { "text": "DNA repair and apoptosis", "correct": true },
+            { "text": "Increase angiogenesis", "correct": false }
+          ],
+          "explanation": "p53 is the guardian of the genome."
+        },
+        {
+          "question": "Tumor marker PSA is associated with",
+          "options": [
+            { "text": "Bladder cancer", "correct": false },
+            { "text": "Prostate cancer", "correct": true },
+            { "text": "Renal cancer", "correct": false },
+            { "text": "Testicular cancer", "correct": false }
+          ],
+          "explanation": "PSA is used for prostate cancer monitoring."
+        },
+        {
+          "question": "Most common childhood malignancy is",
+          "options": [
+            { "text": "Neuroblastoma", "correct": false },
+            { "text": "Leukemia", "correct": true },
+            { "text": "Wilms tumor", "correct": false },
+            { "text": "Lymphoma", "correct": false }
+          ],
+          "explanation": "Leukemia is the most common in children."
+        },
+        {
+          "question": "Loss of contact inhibition suggests",
+          "options": [
+            { "text": "Benign tumor", "correct": false },
+            { "text": "Malignancy", "correct": true },
+            { "text": "Inflammation", "correct": false },
+            { "text": "Metaplasia", "correct": false }
+          ],
+          "explanation": "Malignant cells grow over each other."
+        },
+        {
+          "question": "Chemical carcinogens primarily act by",
+          "options": [
+            { "text": "Immune suppression", "correct": false },
+            { "text": "DNA damage", "correct": true },
+            { "text": "Hormonal effects", "correct": false },
+            { "text": "Protein denaturation", "correct": false }
+          ],
+          "explanation": "They cause mutations in DNA."
+        }
+      ]
+    },
+
+
+
+
+    {
+      "title": "Genetics and Genetic Disorders",
+      "mcqs": [
+        {
+          "question": "Autosomal recessive disorders usually show",
+          "options": [
+            { "text": "Vertical transmission", "correct": false },
+            { "text": "Skipped generations", "correct": true },
+            { "text": "Male predominance", "correct": false },
+            { "text": "Anticipation", "correct": false }
+          ],
+          "explanation": "Carriers are asymptomatic."
+        },
+        {
+          "question": "Marfan syndrome is inherited as",
+          "options": [
+            { "text": "Autosomal recessive", "correct": false },
+            { "text": "Autosomal dominant", "correct": true },
+            { "text": "X-linked", "correct": false },
+            { "text": "Mitochondrial", "correct": false }
+          ],
+          "explanation": "It is caused by fibrillin mutation."
+        },
+        {
+          "question": "Hemophilia A is an example of",
+          "options": [
+            { "text": "Autosomal dominant", "correct": false },
+            { "text": "X-linked recessive", "correct": true },
+            { "text": "Autosomal recessive", "correct": false },
+            { "text": "Mitochondrial", "correct": false }
+          ],
+          "explanation": "It affects males predominantly."
+        },
+        {
+          "question": "Mitochondrial inheritance is transmitted from",
+          "options": [
+            { "text": "Father", "correct": false },
+            { "text": "Mother", "correct": true },
+            { "text": "Both parents", "correct": false },
+            { "text": "Male children only", "correct": false }
+          ],
+          "explanation": "Mitochondria are maternally inherited."
+        },
+        {
+          "question": "Karyotype of Down syndrome is",
+          "options": [
+            { "text": "45,X", "correct": false },
+            { "text": "47,XXY", "correct": false },
+            { "text": "47,+21", "correct": true },
+            { "text": "46,XY", "correct": false }
+          ],
+          "explanation": "Trisomy 21 causes Down syndrome."
+        },
+        {
+          "question": "Turner syndrome patients have",
+          "options": [
+            { "text": "Gynecomastia", "correct": false },
+            { "text": "Webbed neck", "correct": true },
+            { "text": "Tall stature", "correct": false },
+            { "text": "Macroorchidism", "correct": false }
+          ],
+          "explanation": "Turner syndrome is monosomy X."
+        },
+        {
+          "question": "Anticipation is seen in",
+          "options": [
+            { "text": "Trinucleotide repeat disorders", "correct": true },
+            { "text": "Deletions", "correct": false },
+            { "text": "Translocations", "correct": false },
+            { "text": "Point mutations", "correct": false }
+          ],
+          "explanation": "Disease severity increases in successive generations."
+        },
+        {
+          "question": "Prenatal diagnosis includes",
+          "options": [
+            { "text": "ELISA", "correct": false },
+            { "text": "Karyotyping", "correct": true },
+            { "text": "Western blot", "correct": false },
+            { "text": "PCR only", "correct": false }
+          ],
+          "explanation": "Chromosomal analysis is done prenatally."
+        },
+        {
+          "question": "Newborn screening commonly detects",
+          "options": [
+            { "text": "Diabetes", "correct": false },
+            { "text": "PKU", "correct": true },
+            { "text": "Asthma", "correct": false },
+            { "text": "Hypertension", "correct": false }
+          ],
+          "explanation": "Early detection prevents mental retardation."
+        },
+        {
+          "question": "Balanced translocation usually results in",
+          "options": [
+            { "text": "Loss of genetic material", "correct": false },
+            { "text": "No phenotypic effect", "correct": true },
+            { "text": "Lethality", "correct": false },
+            { "text": "Severe disease", "correct": false }
+          ],
+          "explanation": "Genetic material is rearranged but not lost."
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Immunopathology",
+      "mcqs": [
+        {
+          "question": "Type I hypersensitivity is mediated by",
+          "options": [
+            { "text": "IgG", "correct": false },
+            { "text": "IgM", "correct": false },
+            { "text": "IgE", "correct": true },
+            { "text": "IgA", "correct": false }
+          ],
+          "explanation": "IgE binds to mast cells."
+        },
+        {
+          "question": "Anaphylaxis is an example of",
+          "options": [
+            { "text": "Type I hypersensitivity", "correct": true },
+            { "text": "Type II hypersensitivity", "correct": false },
+            { "text": "Type III hypersensitivity", "correct": false },
+            { "text": "Type IV hypersensitivity", "correct": false }
+          ],
+          "explanation": "It is an immediate hypersensitivity reaction."
+        },
+        {
+          "question": "Type II hypersensitivity involves",
+          "options": [
+            { "text": "Immune complexes", "correct": false },
+            { "text": "Antibody mediated cytotoxicity", "correct": true },
+            { "text": "T cells", "correct": false },
+            { "text": "IgE", "correct": false }
+          ],
+          "explanation": "Antibodies target cell surface antigens."
+        },
+        {
+          "question": "Serum sickness is classified as",
+          "options": [
+            { "text": "Type I", "correct": false },
+            { "text": "Type II", "correct": false },
+            { "text": "Type III", "correct": true },
+            { "text": "Type IV", "correct": false }
+          ],
+          "explanation": "Immune complex deposition causes disease."
+        },
+        {
+          "question": "Type IV hypersensitivity is mediated by",
+          "options": [
+            { "text": "Antibodies", "correct": false },
+            { "text": "Complement", "correct": false },
+            { "text": "T lymphocytes", "correct": true },
+            { "text": "Mast cells", "correct": false }
+          ],
+          "explanation": "It is a delayed hypersensitivity reaction."
+        },
+        {
+          "question": "Acute graft rejection is mainly due to",
+          "options": [
+            { "text": "Antibodies only", "correct": false },
+            { "text": "T cell mediated response", "correct": true },
+            { "text": "NK cells", "correct": false },
+            { "text": "Neutrophils", "correct": false }
+          ],
+          "explanation": "T cells recognize donor antigens."
+        },
+        {
+          "question": "Hyperacute rejection occurs due to",
+          "options": [
+            { "text": "Preformed antibodies", "correct": true },
+            { "text": "T cells", "correct": false },
+            { "text": "Macrophages", "correct": false },
+            { "text": "Cytokines", "correct": false }
+          ],
+          "explanation": "Occurs minutes to hours after transplant."
+        },
+        {
+          "question": "SCID is an example of",
+          "options": [
+            { "text": "Secondary immunodeficiency", "correct": false },
+            { "text": "Primary immunodeficiency", "correct": true },
+            { "text": "Autoimmune disease", "correct": false },
+            { "text": "Hypersensitivity", "correct": false }
+          ],
+          "explanation": "SCID is congenital."
+        },
+        {
+          "question": "AL amyloidosis is derived from",
+          "options": [
+            { "text": "Albumin", "correct": false },
+            { "text": "Immunoglobulin light chains", "correct": true },
+            { "text": "Transthyretin", "correct": false },
+            { "text": "Beta amyloid", "correct": false }
+          ],
+          "explanation": "Seen in plasma cell disorders."
+        },
+        {
+          "question": "Amyloid shows which staining property?",
+          "options": [
+            { "text": "Blue on H&E", "correct": false },
+            { "text": "Green birefringence on Congo red", "correct": true },
+            { "text": "Black on silver stain", "correct": false },
+            { "text": "Red fluorescence", "correct": false }
+          ],
+          "explanation": "Apple green birefringence is diagnostic."
+        }
+      ]
+    }
+  ]
+}

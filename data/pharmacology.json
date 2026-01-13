@@ -1,0 +1,534 @@
+{
+  "title": "General Pharmacology",
+  "topics": [
+    {
+      "title": "Introduction to Pharmacokinetics and Pharmacodynamics",
+      "mcqs": [
+        {
+          "question": "Pharmacokinetics deals with",
+          "options": [
+            { "text": "What drug does to body", "correct": false },
+            { "text": "What body does to drug", "correct": true },
+            { "text": "Drug toxicity only", "correct": false },
+            { "text": "Drug discovery", "correct": false }
+          ],
+          "explanation": "Pharmacokinetics describes absorption, distribution, metabolism, and excretion."
+        },
+        {
+          "question": "Pharmacodynamics primarily studies",
+          "options": [
+            { "text": "Drug absorption", "correct": false },
+            { "text": "Drug metabolism", "correct": false },
+            { "text": "Drug effects and mechanism", "correct": true },
+            { "text": "Drug excretion", "correct": false }
+          ],
+          "explanation": "Pharmacodynamics focuses on drug action and effects."
+        },
+        {
+          "question": "Bioavailability refers to",
+          "options": [
+            { "text": "Total dose administered", "correct": false },
+            { "text": "Fraction of drug reaching systemic circulation", "correct": true },
+            { "text": "Drug potency", "correct": false },
+            { "text": "Drug half life", "correct": false }
+          ],
+          "explanation": "Bioavailability measures extent of absorption."
+        },
+        {
+          "question": "First pass metabolism occurs in",
+          "options": [
+            { "text": "Kidney", "correct": false },
+            { "text": "Liver", "correct": true },
+            { "text": "Lung", "correct": false },
+            { "text": "Brain", "correct": false }
+          ],
+          "explanation": "Drugs absorbed orally are metabolized in liver before reaching circulation."
+        },
+        {
+          "question": "Therapeutic index indicates",
+          "options": [
+            { "text": "Drug potency", "correct": false },
+            { "text": "Drug safety margin", "correct": true },
+            { "text": "Drug efficacy", "correct": false },
+            { "text": "Drug duration", "correct": false }
+          ],
+          "explanation": "Higher therapeutic index means safer drug."
+        },
+        {
+          "question": "Loading dose is given to",
+          "options": [
+            { "text": "Reduce toxicity", "correct": false },
+            { "text": "Rapidly achieve steady state", "correct": true },
+            { "text": "Increase bioavailability", "correct": false },
+            { "text": "Prolong action", "correct": false }
+          ],
+          "explanation": "Loading dose quickly attains target plasma level."
+        },
+        {
+          "question": "Steady state is achieved after approximately",
+          "options": [
+            { "text": "1 half life", "correct": false },
+            { "text": "2 half lives", "correct": false },
+            { "text": "4 to 5 half lives", "correct": true },
+            { "text": "10 half lives", "correct": false }
+          ],
+          "explanation": "Steady state depends on half life."
+        },
+        {
+          "question": "Clearance represents",
+          "options": [
+            { "text": "Drug potency", "correct": false },
+            { "text": "Volume cleared per unit time", "correct": true },
+            { "text": "Volume of distribution", "correct": false },
+            { "text": "Drug efficacy", "correct": false }
+          ],
+          "explanation": "Clearance measures elimination efficiency."
+        },
+        {
+          "question": "Volume of distribution indicates",
+          "options": [
+            { "text": "Plasma volume", "correct": false },
+            { "text": "Extent of drug distribution", "correct": true },
+            { "text": "Drug metabolism", "correct": false },
+            { "text": "Drug elimination", "correct": false }
+          ],
+          "explanation": "High Vd means extensive tissue distribution."
+        },
+        {
+          "question": "Zero order kinetics means",
+          "options": [
+            { "text": "Constant fraction eliminated", "correct": false },
+            { "text": "Constant amount eliminated", "correct": true },
+            { "text": "First pass metabolism", "correct": false },
+            { "text": "No metabolism", "correct": false }
+          ],
+          "explanation": "Elimination rate is constant irrespective of concentration."
+        }
+      ]
+    },
+
+    {
+      "title": "Pharmacokinetics: Absorption and Distribution",
+      "mcqs": [
+        {
+          "question": "Most drugs are absorbed by",
+          "options": [
+            { "text": "Active transport", "correct": false },
+            { "text": "Passive diffusion", "correct": true },
+            { "text": "Pinocytosis", "correct": false },
+            { "text": "Facilitated diffusion", "correct": false }
+          ],
+          "explanation": "Passive diffusion is the commonest mechanism."
+        },
+        {
+          "question": "Oral drug absorption is favored by",
+          "options": [
+            { "text": "High ionization", "correct": false },
+            { "text": "Lipid solubility", "correct": true },
+            { "text": "High protein binding", "correct": false },
+            { "text": "Large molecular size", "correct": false }
+          ],
+          "explanation": "Lipid soluble drugs cross membranes easily."
+        },
+        {
+          "question": "Highly protein bound drugs have",
+          "options": [
+            { "text": "Higher clearance", "correct": false },
+            { "text": "Lower free fraction", "correct": true },
+            { "text": "Shorter half life", "correct": false },
+            { "text": "Faster action", "correct": false }
+          ],
+          "explanation": "Only free drug is pharmacologically active."
+        },
+        {
+          "question": "Blood brain barrier restricts entry of",
+          "options": [
+            { "text": "Lipid soluble drugs", "correct": false },
+            { "text": "Ionized drugs", "correct": true },
+            { "text": "Gases", "correct": false },
+            { "text": "Alcohol", "correct": false }
+          ],
+          "explanation": "Ionized drugs cross poorly."
+        },
+        {
+          "question": "Ion trapping occurs due to difference in",
+          "options": [
+            { "text": "Blood flow", "correct": false },
+            { "text": "pH", "correct": true },
+            { "text": "Protein binding", "correct": false },
+            { "text": "Metabolism", "correct": false }
+          ],
+          "explanation": "pH affects drug ionization."
+        },
+        {
+          "question": "Drug distribution is increased by",
+          "options": [
+            { "text": "Poor perfusion", "correct": false },
+            { "text": "High lipid solubility", "correct": true },
+            { "text": "High protein binding", "correct": false },
+            { "text": "Low tissue affinity", "correct": false }
+          ],
+          "explanation": "Lipid soluble drugs distribute widely."
+        },
+        {
+          "question": "Placental transfer favors",
+          "options": [
+            { "text": "Ionized drugs", "correct": false },
+            { "text": "Lipid soluble drugs", "correct": true },
+            { "text": "Large molecules", "correct": false },
+            { "text": "Protein bound drugs", "correct": false }
+          ],
+          "explanation": "Placenta behaves like lipid membrane."
+        },
+        {
+          "question": "Bioequivalence studies compare",
+          "options": [
+            { "text": "Efficacy", "correct": false },
+            { "text": "Rate and extent of absorption", "correct": true },
+            { "text": "Toxicity", "correct": false },
+            { "text": "Potency", "correct": false }
+          ],
+          "explanation": "Bioequivalence ensures similar absorption."
+        },
+        {
+          "question": "Rectal route avoids",
+          "options": [
+            { "text": "All first pass effect", "correct": false },
+            { "text": "Partial first pass effect", "correct": true },
+            { "text": "Systemic circulation", "correct": false },
+            { "text": "Absorption", "correct": false }
+          ],
+          "explanation": "Lower rectum drains directly into systemic circulation."
+        },
+        {
+          "question": "Depot preparations are used to",
+          "options": [
+            { "text": "Increase toxicity", "correct": false },
+            { "text": "Prolong drug action", "correct": true },
+            { "text": "Increase clearance", "correct": false },
+            { "text": "Reduce bioavailability", "correct": false }
+          ],
+          "explanation": "Depot forms release drug slowly."
+        }
+      ]
+    },
+
+    {
+      "title": "Pharmacokinetics: Metabolism and Excretion",
+      "mcqs": [
+        {
+          "question": "Phase I reactions mainly involve",
+          "options": [
+            { "text": "Conjugation", "correct": false },
+            { "text": "Oxidation reduction hydrolysis", "correct": true },
+            { "text": "Glucuronidation only", "correct": false },
+            { "text": "Sulfation", "correct": false }
+          ],
+          "explanation": "Phase I introduces functional groups."
+        },
+        {
+          "question": "Cytochrome P450 enzymes are located in",
+          "options": [
+            { "text": "Mitochondria", "correct": false },
+            { "text": "Smooth endoplasmic reticulum", "correct": true },
+            { "text": "Nucleus", "correct": false },
+            { "text": "Lysosome", "correct": false }
+          ],
+          "explanation": "CYP enzymes are microsomal."
+        },
+        {
+          "question": "Enzyme induction causes",
+          "options": [
+            { "text": "Increased drug levels", "correct": false },
+            { "text": "Reduced drug effect", "correct": true },
+            { "text": "Toxicity always", "correct": false },
+            { "text": "Inhibition of metabolism", "correct": false }
+          ],
+          "explanation": "Induction increases metabolism."
+        },
+        {
+          "question": "Prodrugs are activated by",
+          "options": [
+            { "text": "Absorption", "correct": false },
+            { "text": "Metabolism", "correct": true },
+            { "text": "Excretion", "correct": false },
+            { "text": "Distribution", "correct": false }
+          ],
+          "explanation": "Prodrugs need metabolic conversion."
+        },
+        {
+          "question": "Phase II reactions usually result in",
+          "options": [
+            { "text": "Lipid soluble metabolites", "correct": false },
+            { "text": "Water soluble metabolites", "correct": true },
+            { "text": "Active metabolites", "correct": false },
+            { "text": "Toxic metabolites", "correct": false }
+          ],
+          "explanation": "Conjugation increases solubility."
+        },
+        {
+          "question": "Major route of drug excretion is",
+          "options": [
+            { "text": "Bile", "correct": false },
+            { "text": "Kidney", "correct": true },
+            { "text": "Lung", "correct": false },
+            { "text": "Sweat", "correct": false }
+          ],
+          "explanation": "Renal excretion is most common."
+        },
+        {
+          "question": "Urinary alkalinization enhances excretion of",
+          "options": [
+            { "text": "Weak acids", "correct": true },
+            { "text": "Weak bases", "correct": false },
+            { "text": "Neutral drugs", "correct": false },
+            { "text": "All drugs", "correct": false }
+          ],
+          "explanation": "Ionized weak acids are excreted faster."
+        },
+        {
+          "question": "Enterohepatic circulation causes",
+          "options": [
+            { "text": "Rapid elimination", "correct": false },
+            { "text": "Prolonged drug action", "correct": true },
+            { "text": "Reduced absorption", "correct": false },
+            { "text": "Increased clearance", "correct": false }
+          ],
+          "explanation": "Recycling prolongs presence in body."
+        },
+        {
+          "question": "Renal clearance depends on",
+          "options": [
+            { "text": "Glomerular filtration", "correct": false },
+            { "text": "Tubular secretion and reabsorption", "correct": false },
+            { "text": "All of the above", "correct": true },
+            { "text": "Hepatic metabolism", "correct": false }
+          ],
+          "explanation": "Multiple renal processes affect clearance."
+        },
+        {
+          "question": "Neonates have reduced drug metabolism due to",
+          "options": [
+            { "text": "High enzyme activity", "correct": false },
+            { "text": "Immature liver enzymes", "correct": true },
+            { "text": "High renal clearance", "correct": false },
+            { "text": "Increased protein binding", "correct": false }
+          ],
+          "explanation": "Hepatic enzymes mature after birth."
+        }
+      ]
+    },
+
+    {
+      "title": "Pharmacodynamics and Drug Receptors",
+      "mcqs": [
+        {
+          "question": "Potency refers to",
+          "options": [
+            { "text": "Maximum effect", "correct": false },
+            { "text": "Dose required for effect", "correct": true },
+            { "text": "Duration of action", "correct": false },
+            { "text": "Safety margin", "correct": false }
+          ],
+          "explanation": "Lower dose means higher potency."
+        },
+        {
+          "question": "Efficacy refers to",
+          "options": [
+            { "text": "Dose needed", "correct": false },
+            { "text": "Maximum effect achievable", "correct": true },
+            { "text": "Speed of action", "correct": false },
+            { "text": "Toxicity", "correct": false }
+          ],
+          "explanation": "Efficacy reflects maximal response."
+        },
+        {
+          "question": "Competitive antagonists shift dose response curve",
+          "options": [
+            { "text": "Downward", "correct": false },
+            { "text": "To the right", "correct": true },
+            { "text": "Upward", "correct": false },
+            { "text": "Leftward", "correct": false }
+          ],
+          "explanation": "Higher dose of agonist overcomes antagonism."
+        },
+        {
+          "question": "Non competitive antagonists reduce",
+          "options": [
+            { "text": "Potency only", "correct": false },
+            { "text": "Efficacy", "correct": true },
+            { "text": "Dose", "correct": false },
+            { "text": "Affinity", "correct": false }
+          ],
+          "explanation": "Maximum response cannot be achieved."
+        },
+        {
+          "question": "Partial agonist produces",
+          "options": [
+            { "text": "No effect", "correct": false },
+            { "text": "Submaximal effect", "correct": true },
+            { "text": "Full antagonism", "correct": false },
+            { "text": "Toxicity", "correct": false }
+          ],
+          "explanation": "Partial agonists have lower efficacy."
+        },
+        {
+          "question": "Spare receptors cause",
+          "options": [
+            { "text": "Reduced efficacy", "correct": false },
+            { "text": "Increased sensitivity", "correct": true },
+            { "text": "Resistance", "correct": false },
+            { "text": "Tolerance", "correct": false }
+          ],
+          "explanation": "Full response without occupying all receptors."
+        },
+        {
+          "question": "Affinity refers to",
+          "options": [
+            { "text": "Ability to produce effect", "correct": false },
+            { "text": "Ability to bind receptor", "correct": true },
+            { "text": "Drug distribution", "correct": false },
+            { "text": "Drug metabolism", "correct": false }
+          ],
+          "explanation": "Binding strength defines affinity."
+        },
+        {
+          "question": "Agonist plus antagonist effect depends on",
+          "options": [
+            { "text": "Affinity and efficacy", "correct": true },
+            { "text": "Bioavailability", "correct": false },
+            { "text": "Clearance", "correct": false },
+            { "text": "Excretion", "correct": false }
+          ],
+          "explanation": "Receptor interactions determine response."
+        },
+        {
+          "question": "Tolerance means",
+          "options": [
+            { "text": "Increased response", "correct": false },
+            { "text": "Reduced response with time", "correct": true },
+            { "text": "Allergy", "correct": false },
+            { "text": "Idiosyncrasy", "correct": false }
+          ],
+          "explanation": "Repeated use reduces effect."
+        },
+        {
+          "question": "Tachyphylaxis is",
+          "options": [
+            { "text": "Slow tolerance", "correct": false },
+            { "text": "Rapid tolerance", "correct": true },
+            { "text": "Allergy", "correct": false },
+            { "text": "Drug interaction", "correct": false }
+          ],
+          "explanation": "Occurs quickly after repeated dosing."
+        }
+      ]
+    },
+
+    {
+      "title": "Drug Development, Clinical Trials, ADR and Pharmacogenetics",
+      "mcqs": [
+        {
+          "question": "Phase I clinical trial assesses",
+          "options": [
+            { "text": "Efficacy", "correct": false },
+            { "text": "Safety and dose", "correct": true },
+            { "text": "Comparison with standard drug", "correct": false },
+            { "text": "Post marketing surveillance", "correct": false }
+          ],
+          "explanation": "Phase I focuses on safety."
+        },
+        {
+          "question": "Phase III trial compares",
+          "options": [
+            { "text": "Drug with placebo or standard", "correct": true },
+            { "text": "Animal models", "correct": false },
+            { "text": "Toxicity only", "correct": false },
+            { "text": "Bioavailability", "correct": false }
+          ],
+          "explanation": "Phase III establishes efficacy."
+        },
+        {
+          "question": "Phase IV trial is also called",
+          "options": [
+            { "text": "Preclinical trial", "correct": false },
+            { "text": "Post marketing surveillance", "correct": true },
+            { "text": "Dose finding trial", "correct": false },
+            { "text": "Pilot study", "correct": false }
+          ],
+          "explanation": "Detects rare adverse effects."
+        },
+        {
+          "question": "Type A ADRs are",
+          "options": [
+            { "text": "Unpredictable", "correct": false },
+            { "text": "Dose related and predictable", "correct": true },
+            { "text": "Allergic", "correct": false },
+            { "text": "Genetic", "correct": false }
+          ],
+          "explanation": "Type A reactions are common."
+        },
+        {
+          "question": "Type B ADRs are",
+          "options": [
+            { "text": "Dose related", "correct": false },
+            { "text": "Idiosyncratic", "correct": true },
+            { "text": "Predictable", "correct": false },
+            { "text": "Common", "correct": false }
+          ],
+          "explanation": "Type B reactions are unpredictable."
+        },
+        {
+          "question": "Pharmacovigilance deals with",
+          "options": [
+            { "text": "Drug marketing", "correct": false },
+            { "text": "Detection of ADRs", "correct": true },
+            { "text": "Drug synthesis", "correct": false },
+            { "text": "Animal studies", "correct": false }
+          ],
+          "explanation": "Ensures drug safety after approval."
+        },
+        {
+          "question": "Pharmacogenetics studies",
+          "options": [
+            { "text": "Population genetics", "correct": false },
+            { "text": "Genetic variation affecting drug response", "correct": true },
+            { "text": "Drug discovery", "correct": false },
+            { "text": "ADR reporting", "correct": false }
+          ],
+          "explanation": "Genes influence drug response."
+        },
+        {
+          "question": "Slow acetylators show",
+          "options": [
+            { "text": "Reduced toxicity", "correct": false },
+            { "text": "Increased toxicity", "correct": true },
+            { "text": "Reduced efficacy", "correct": false },
+            { "text": "No difference", "correct": false }
+          ],
+          "explanation": "Slow metabolism increases drug levels."
+        },
+        {
+          "question": "Orphan drugs are developed for",
+          "options": [
+            { "text": "Common diseases", "correct": false },
+            { "text": "Rare diseases", "correct": true },
+            { "text": "Infections only", "correct": false },
+            { "text": "Cancer only", "correct": false }
+          ],
+          "explanation": "Orphan drugs target rare conditions."
+        },
+        {
+          "question": "Placebo effect is due to",
+          "options": [
+            { "text": "Pharmacological action", "correct": false },
+            { "text": "Psychological response", "correct": true },
+            { "text": "Metabolism", "correct": false },
+            { "text": "Drug interaction", "correct": false }
+          ],
+          "explanation": "Placebo has no active ingredient."
+        }
+      ]
+    }
+  ]
+}
