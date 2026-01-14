@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr pluto Login</title>
+<title>Dr Pluto Login</title>
+
 <link rel="stylesheet" href="auth/style.css">
 
 <!-- Firebase -->
@@ -11,34 +12,53 @@
 <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore-compat.js"></script>
 </head>
+
 <body>
 
 <!-- Loader -->
 <div id="loader" class="loader">
-  <img src="auth/logo.png" class="loader-logo" alt="Lingofying Logo">
+  <img src="auth/logo.png" class="loader-logo" alt="Dr Pluto Logo">
   <p>Loading</p>
 </div>
 
-<!-- Login / Signup Form -->
+<!-- Login / Signup -->
 <div id="main" class="hidden">
   <div class="card">
     <h2 id="form-title">Sign In</h2>
 
     <input type="text" id="name" placeholder="Your Name (for Sign Up)" class="hidden">
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
+
+    <input
+      type="email"
+      id="email"
+      placeholder="Email"
+      inputmode="email"
+      autocomplete="email"
+    >
+
+    <input
+      type="password"
+      id="password"
+      placeholder="Password"
+      autocomplete="current-password"
+    >
 
     <p id="forgot-password" class="forgot-password">Forgot Password?</p>
 
     <button id="action-btn">Sign In</button>
 
-    <p id="switch-text">Don't have an account? <span id="switch-link">Sign Up</span></p>
+    <p id="switch-text">
+      Don't have an account?
+      <span id="switch-link">Sign Up</span>
+    </p>
+
     <p id="error-msg"></p>
     <p id="message-msg"></p>
   </div>
 </div>
 
 <script src="auth/app.js"></script>
+
 <script>
   const firebaseConfig = {
     apiKey: "AIzaSyBdP_r0wK6jqpd-tGkx5w5SS1mHl5pbynA",
@@ -49,6 +69,7 @@
     appId: "1:175267331806:web:6fdfce0e92048aef19cc4f",
     measurementId: "G-VXF34PYFK3"
   };
+
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
   const db = firebase.firestore();
