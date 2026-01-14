@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Topics</title>
+</head>
+<body>
+
+<header class="topbar">
+  <h1>Cardiology</h1>
+</header>
+
+<main id="topicList"></main>
+
+<script>
+fetch("topics.json")
+  .then(r => r.json())
+  .then(topics => {
+    const list = document.getElementById("topicList");
+    topics.forEach(t => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `<strong>${t.title}</strong>`;
+      card.onclick = () => {
+        location.href = `index.html?topic=${t.id}`;
+      };
+      list.appendChild(card);
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+[
+  { "id": "mi", "title": "Myocardial Infarction" },
+  { "id": "angina", "title": "Angina Pectoris" },
+  { "id": "heart-failure", "title": "Heart Failure" },
+  { "id": "arrhythmia", "title": "Arrhythmias" },
+  { "id": "hypertension", "title": "Hypertension" }
+]

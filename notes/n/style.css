@@ -1,0 +1,107 @@
+:root {
+  --blue: #1e88e5;
+  --yellow: #fff3cd;
+  --red: #c62828;
+  --bg: #f6f8fb;
+  --card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: #222;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  background: var(--card);
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.topbar h1 {
+  flex: 1;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card {
+  background: var(--card);
+  margin: 12px;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.overview {
+  border-left: 4px solid var(--blue);
+}
+
+.gold {
+  background: var(--yellow);
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.section {
+  margin: 10px 12px;
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.section-header {
+  padding: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.section-content {
+  display: none;
+  padding: 14px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
+
+.flow div {
+  text-align: center;
+  margin: 6px 0;
+}
+
+.flow div::after {
+  content: "↓";
+  display: block;
+}
+
+.flow div:last-child::after {
+  content: "";
+}
+
+.exam {
+  background: var(--yellow);
+  font-weight: 600;
+}
+
+.mistake {
+  color: var(--red);
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 16px;
+  color: #555;
+}

@@ -1,0 +1,31 @@
+{
+  "subject": "Cardiology",
+  "topic": "Angina Pectoris",
+  "tags": ["FMGE", "USMLE"],
+
+  "overview": {
+    "definition": "Chest pain due to transient myocardial ischemia.",
+    "mechanism": "Reduced coronary blood flow without necrosis.",
+    "golden_fact": "Pain is relieved by rest or nitrates."
+  },
+
+  "sections": [
+    {
+      "title": "Types",
+      "type": "list",
+      "content": [
+        "Stable angina",
+        "Unstable angina",
+        "Prinzmetal angina"
+      ]
+    }
+  ],
+
+  "exam_pearls": [
+    "Unstable angina has normal troponin."
+  ],
+
+  "mistakes": [
+    "No myocardial necrosis in angina."
+  ]
+}

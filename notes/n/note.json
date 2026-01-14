@@ -1,0 +1,52 @@
+{
+  "subject": "Cardiology",
+  "topic": "Myocardial Infarction",
+  "tags": ["FMGE", "USMLE", "High Yield"],
+
+  "overview": {
+    "definition": "Irreversible myocardial necrosis due to prolonged ischemia.",
+    "mechanism": "Plaque rupture causes thrombus formation and coronary occlusion.",
+    "golden_fact": "Troponin I is the most specific marker of myocardial infarction."
+  },
+
+  "sections": [
+    {
+      "title": "Etiology",
+      "type": "list",
+      "content": [
+        "Atherosclerotic plaque rupture",
+        "Coronary artery thrombosis",
+        "Coronary vasospasm"
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "type": "flow",
+      "content": [
+        "Plaque rupture",
+        "Platelet aggregation",
+        "Thrombus formation",
+        "Coronary occlusion",
+        "Ischemia",
+        "Myocardial necrosis"
+      ]
+    },
+    {
+      "title": "Clinical Features",
+      "type": "list",
+      "content": [
+        "Severe chest pain",
+        "Radiation to left arm or jaw",
+        "Sweating and nausea"
+      ]
+    }
+  ],
+
+  "exam_pearls": [
+    "Inferior wall MI often causes bradycardia due to RCA involvement."
+  ],
+
+  "mistakes": [
+    "Troponin does not rise immediately after infarction."
+  ]
+}
