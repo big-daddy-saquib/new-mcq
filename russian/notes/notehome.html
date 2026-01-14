@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Notes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="Logo.webp" alt="Logo" class="logo-img">
+    <h1>Medical Notes</h1>
+  </div>
+
+  <div class="header-controls">
+    <label for="subject-select">Subject:</label>
+    <select id="subject-select"></select>
+    <input type="text" id="search-input" placeholder="Search topics or subtopics...">
+    <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    <button id="toggle-all">Expand All</button>
+    <button id="menu-toggle">☰ Topics</button>
+  </div>
+</header>
+
+<div class="breadcrumb" id="breadcrumb">
+  <!-- Breadcrumb: Subject > Topic > Subtopic -->
+</div>
+
+<div class="notes-container">
+  <aside class="topics-panel" id="topics-panel"></aside>
+  <main class="subtopics-panel" id="subtopics-panel"></main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,534 @@
+{
+  "title": "Общая микробиология и бактериология",
+  "topics": [
+    {
+      "title": "Основные микробиологические инструменты и методы",
+      "mcqs": [
+        {
+          "question": "Разрешающая способность микроскопа зависит в основном от",
+          "options": [
+            { "text": "Увеличения", "correct": false },
+            { "text": "Числовой апертуры", "correct": true },
+            { "text": "Интенсивности света", "correct": false },
+            { "text": "Окулярной линзы", "correct": false }
+          ],
+          "explanation": "Разрешающая способность определяется числовой апертурой и длиной волны света."
+        },
+        {
+          "question": "Иммерсионный объектив имеет увеличение",
+          "options": [
+            { "text": "40x", "correct": false },
+            { "text": "60x", "correct": false },
+            { "text": "100x", "correct": true },
+            { "text": "400x", "correct": false }
+          ],
+          "explanation": "Иммерсионный объектив обеспечивает увеличение 100x."
+        },
+        {
+          "question": "Микроскопия в темном поле лучше всего используется для наблюдения",
+          "options": [
+            { "text": "Staphylococcus", "correct": false },
+            { "text": "Mycobacterium", "correct": false },
+            { "text": "Treponema pallidum", "correct": true },
+            { "text": "E coli", "correct": false }
+          ],
+          "explanation": "Тонкие спирохеты лучше всего видны при микроскопии в темном поле."
+        },
+        {
+          "question": "Грам-окраска различает бактерии по",
+          "options": [
+            { "text": "Клеточной мембране", "correct": false },
+            { "text": "Составу клеточной стенки", "correct": true },
+            { "text": "Капсуле", "correct": false },
+            { "text": "Жгутикам", "correct": false }
+          ],
+          "explanation": "Толщина пептидогликана определяет грам-реакцию."
+        },
+        {
+          "question": "Первичный краситель при грамм-окраске",
+          "options": [
+            { "text": "Сафранин", "correct": false },
+            { "text": "Кристаллический фиолетовый", "correct": true },
+            { "text": "Йод", "correct": false },
+            { "text": "Спирт", "correct": false }
+          ],
+          "explanation": "Кристаллический фиолетовый — первичный краситель."
+        },
+        {
+          "question": "Кислотоустойчивая окраска полезна для выявления",
+          "options": [
+            { "text": "Стрептококков", "correct": false },
+            { "text": "Микобактерий", "correct": true },
+            { "text": "Клостридий", "correct": false },
+            { "text": "Нейссерий", "correct": false }
+          ],
+          "explanation": "Миколовые кислоты делают бактерии кислотоустойчивыми."
+        },
+        {
+          "question": "Негативная окраска в основном используется для демонстрации",
+          "options": [
+            { "text": "Спор", "correct": false },
+            { "text": "Капсулы", "correct": true },
+            { "text": "Жгутиков", "correct": false },
+            { "text": "Клеточной стенки", "correct": false }
+          ],
+          "explanation": "Капсулы выглядят как прозрачные ореолы при негативной окраске."
+        },
+        {
+          "question": "Электронная микроскопия в основном используется для изучения",
+          "options": [
+            { "text": "Живых бактерий", "correct": false },
+            { "text": "Ультраструктуры бактерий", "correct": true },
+            { "text": "Подвижности", "correct": false },
+            { "text": "Характеристик культуры", "correct": false }
+          ],
+          "explanation": "Электронная микроскопия показывает ультраструктурные детали."
+        },
+        {
+          "question": "Флуоресцентная микроскопия обычно использует",
+          "options": [
+            { "text": "Окраску Циль-Нильсена", "correct": false },
+            { "text": "Окраску ауромин-родамином", "correct": true },
+            { "text": "Индийскую тушь", "correct": false },
+            { "text": "Сафранин", "correct": false }
+          ],
+          "explanation": "Ауромин-родамин используется для обнаружения кислотоустойчивых бактерий."
+        },
+        {
+          "question": "Контрастно-фазовая микроскопия полезна для наблюдения",
+          "options": [
+            { "text": "Мертвых бактерий", "correct": false },
+            { "text": "Окрашенных препаратов", "correct": false },
+            { "text": "Живых неокрашенных клеток", "correct": true },
+            { "text": "Только спор", "correct": false }
+          ],
+          "explanation": "Контрастно-фазовая микроскопия позволяет видеть живые неокрашенные клетки."
+        }
+      ]
+    },
+
+    {
+      "title": "Строение бактерий, классификация и идентификация",
+      "mcqs": [
+        {
+          "question": "Клеточная стенка отсутствует у",
+          "options": [
+            { "text": "Mycoplasma", "correct": true },
+            { "text": "Mycobacterium", "correct": false },
+            { "text": "Chlamydia", "correct": false },
+            { "text": "Rickettsia", "correct": false }
+          ],
+          "explanation": "У микоплазм отсутствует клеточная стенка."
+        },
+        {
+          "question": "Капсула является важным фактором вирулентности, потому что",
+          "options": [
+            { "text": "Помогает в подвижности", "correct": false },
+            { "text": "Предотвращает фагоцитоз", "correct": true },
+            { "text": "Помогает в окраске", "correct": false },
+            { "text": "Вырабатывает токсины", "correct": false }
+          ],
+          "explanation": "Капсулы защищают бактерии от фагоцитоза."
+        },
+        {
+          "question": "Жгутики отвечают за",
+          "options": [
+            { "text": "Прикрепление", "correct": false },
+            { "text": "Подвижность", "correct": true },
+            { "text": "Выработку токсинов", "correct": false },
+            { "text": "Устойчивость", "correct": false }
+          ],
+          "explanation": "Жгутики обеспечивают движение бактерий."
+        },
+        {
+          "question": "Эндоспоры образуются у",
+          "options": [
+            { "text": "Staphylococcus", "correct": false },
+            { "text": "Bacillus", "correct": true },
+            { "text": "E coli", "correct": false },
+            { "text": "Neisseria", "correct": false }
+          ],
+          "explanation": "Споры образуют Bacillus и Clostridium."
+        },
+        {
+          "question": "Грамположительные бактерии содержат",
+          "options": [
+            { "text": "Внешнюю мембрану", "correct": false },
+            { "text": "Тейхоевую кислоту", "correct": true },
+            { "text": "Липополисахарид", "correct": false },
+            { "text": "Порины", "correct": false }
+          ],
+          "explanation": "Тейхоевые кислоты присутствуют в грамположительных клеточных стенках."
+        },
+        {
+          "question": "Липополисахарид (LPS) является компонентом",
+          "options": [
+            { "text": "Грамположительных бактерий", "correct": false },
+            { "text": "Грамотрицательных бактерий", "correct": true },
+            { "text": "Mycoplasma", "correct": false },
+            { "text": "Chlamydia", "correct": false }
+          ],
+          "explanation": "LPS находится в наружной мембране грамотрицательных бактерий."
+        },
+        {
+          "question": "Антиген H связан с",
+          "options": [
+            { "text": "Капсулой", "correct": false },
+            { "text": "Жгутиками", "correct": true },
+            { "text": "Клеточной стенкой", "correct": false },
+            { "text": "Рибосомой", "correct": false }
+          ],
+          "explanation": "Антиген H — это флагеллярный антиген."
+        },
+        {
+          "question": "Расположение кокков в цепочках указывает на",
+          "options": [
+            { "text": "Staphylococci", "correct": false },
+            { "text": "Streptococci", "correct": true },
+            { "text": "Neisseria", "correct": false },
+            { "text": "Micrococci", "correct": false }
+          ],
+          "explanation": "Стрептококки располагаются в цепочках."
+        },
+        {
+          "question": "Двоичное деление происходит в",
+          "options": [
+            { "text": "Лаг-фазе", "correct": false },
+            { "text": "Лог-фазе", "correct": true },
+            { "text": "Стационарной фазе", "correct": false },
+            { "text": "Фазе упадка", "correct": false }
+          ],
+          "explanation": "Быстрое деление бактерий происходит в лог-фазе."
+        },
+        {
+          "question": "Плеоморфизм наиболее выражен у",
+          "options": [
+            { "text": "E coli", "correct": false },
+            { "text": "Mycoplasma", "correct": true },
+            { "text": "Clostridium", "correct": false },
+            { "text": "Staphylococcus", "correct": false }
+          ],
+          "explanation": "Mycoplasma имеет изменчивую форму."
+        }
+      ]
+    },
+
+    {
+      "title": "Физиология, генетика и тестирование бактерий",
+      "mcqs": [
+        {
+          "question": "Каталазный тест различает",
+          "options": [
+            { "text": "Staphylococci и Streptococci", "correct": true },
+            { "text": "E coli и Klebsiella", "correct": false },
+            { "text": "Salmonella и Shigella", "correct": false },
+            { "text": "Виды Neisseria", "correct": false }
+          ],
+          "explanation": "Staphylococci каталазо-положительные."
+        },
+        {
+          "question": "Окислазоположительный микроорганизм",
+          "options": [
+            { "text": "E coli", "correct": false },
+            { "text": "Pseudomonas", "correct": true },
+            { "text": "Shigella", "correct": false },
+            { "text": "Salmonella", "correct": false }
+          ],
+          "explanation": "Pseudomonas окислазо-положительная."
+        },
+        {
+          "question": "Тест на чувствительность к антибиотикам обычно используют",
+          "options": [
+            { "text": "ELISA", "correct": false },
+            { "text": "Метод Кирби-Бауэра", "correct": true },
+            { "text": "PCR", "correct": false },
+            { "text": "Вестерн-блот", "correct": false }
+          ],
+          "explanation": "Дисковая диффузия — стандартный метод."
+        },
+        {
+          "question": "Плазмиды отвечают за",
+          "options": [
+            { "text": "Синтез белка", "correct": false },
+            { "text": "Антибиотикоустойчивость", "correct": true },
+            { "text": "Синтез клеточной стенки", "correct": false },
+            { "text": "Выработку энергии", "correct": false }
+          ],
+          "explanation": "R-плазмиды несут гены устойчивости."
+        },
+        {
+          "question": "Трансформация включает",
+          "options": [
+            { "text": "Передачу через бактериофаг", "correct": false },
+            { "text": "Прямое поглощение свободной ДНК", "correct": true },
+            { "text": "Контакт между клетками", "correct": false },
+            { "text": "Обмен только плазмидами", "correct": false }
+          ],
+          "explanation": "Трансформация — это захват свободной ДНК."
+        },
+        {
+          "question": "Конъюгация требует",
+          "options": [
+            { "text": "Бактериофага", "correct": false },
+            { "text": "Сексуальной пилюли", "correct": true },
+            { "text": "Компетентности", "correct": false },
+            { "text": "Транспозонов", "correct": false }
+          ],
+          "explanation": "Сексуальная пилюля обеспечивает конъюгацию."
+        },
+        {
+          "question": "Трансдукция осуществляется с помощью",
+          "options": [
+            { "text": "Плазмид", "correct": false },
+            { "text": "Бактериофагов", "correct": true },
+            { "text": "Рибосом", "correct": false },
+            { "text": "Капсулы", "correct": false }
+          ],
+          "explanation": "Фаги переносят ДНК между бактериями."
+        },
+        {
+          "question": "Минимальная ингибирующая концентрация (MIC) — это",
+          "options": [
+            { "text": "Наибольшая концентрация препарата", "correct": false },
+            { "text": "Наименьшая концентрация, подавляющая рост", "correct": true },
+            { "text": "Бактерицидная доза", "correct": false },
+            { "text": "Токсическая доза", "correct": false }
+          ],
+          "explanation": "MIC предотвращает видимый рост бактерий."
+        },
+        {
+          "question": "Пример селективной среды",
+          "options": [
+            { "text": "Кровяной агар", "correct": false },
+            { "text": "Агар МакКонки", "correct": true },
+            { "text": "Шоколадный агар", "correct": false },
+            { "text": "Питательный агар", "correct": false }
+          ],
+          "explanation": "МакКонки ингибирует грамположительные бактерии."
+        },
+        {
+          "question": "Лактозоперерабатывающие бактерии образуют",
+          "options": [
+            { "text": "Бесцветные колонии", "correct": false },
+            { "text": "Розовые колонии", "correct": true },
+            { "text": "Зеленые колонии", "correct": false },
+            { "text": "Черные колонии", "correct": false }
+          ],
+          "explanation": "Ферментация лактозы дает розовые колонии."
+        }
+      ]
+    },
+
+    {
+      "title": "Стерилизация, дезинфекция и инфекционный контроль",
+      "mcqs": [
+        {
+          "question": "Стерилизация уничтожает",
+          "options": [
+            { "text": "Только вегетативные формы", "correct": false },
+            { "text": "Все формы жизни", "correct": true },
+            { "text": "Только споры", "correct": false },
+            { "text": "Только вирусы", "correct": false }
+          ],
+          "explanation": "Стерилизация уничтожает все микроорганизмы."
+        },
+        {
+          "question": "Автоклав использует",
+          "options": [
+            { "text": "Сухой жар", "correct": false },
+            { "text": "Влажный жар под давлением", "correct": true },
+            { "text": "Излучение", "correct": false },
+            { "text": "Фильтрацию", "correct": false }
+          ],
+          "explanation": "Автоклав использует пар под давлением."
+        },
+        {
+          "question": "Стандартная температура автоклава",
+          "options": [
+            { "text": "100°C", "correct": false },
+            { "text": "121°C", "correct": true },
+            { "text": "160°C", "correct": false },
+            { "text": "180°C", "correct": false }
+          ],
+          "explanation": "121°C в течение 15 минут — стандарт."
+        },
+        {
+          "question": "Фенол используется в основном как",
+          "options": [
+            { "text": "Антисептик", "correct": false },
+            { "text": "Дезинфектант", "correct": true },
+            { "text": "Стерилизатор", "correct": false },
+            { "text": "Консервант", "correct": false }
+          ],
+          "explanation": "Фенол используется для дезинфекции окружающей среды."
+        },
+        {
+          "question": "Спирт неэффективен против",
+          "options": [
+            { "text": "Грамположительных бактерий", "correct": false },
+            { "text": "Спор", "correct": true },
+            { "text": "Вирусов", "correct": false },
+            { "text": "Микобактерий", "correct": false }
+          ],
+          "explanation": "Спирт не убивает споры."
+        },
+        {
+          "question": "Этиленоксид используют для",
+          "options": [
+            { "text": "Металлических инструментов", "correct": false },
+            { "text": "Термо- и чувствительного оборудования", "correct": true },
+            { "text": "Жидкостей", "correct": false },
+            { "text": "Стерилизации воздуха", "correct": false }
+          ],
+          "explanation": "Он стерилизует деликатные инструменты."
+        },
+        {
+          "question": "Пастеризация используется в основном для",
+          "options": [
+            { "text": "Молока", "correct": true },
+            { "text": "Хирургических инструментов", "correct": false },
+            { "text": "Питательных сред", "correct": false },
+            { "text": "Вакцин", "correct": false }
+          ],
+          "explanation": "Пастеризация снижает количество патогенов в молоке."
+        },
+        {
+          "question": "Гигиена рук является частью",
+          "options": [
+            { "text": "Мер предосторожности передачи", "correct": false },
+            { "text": "Стандартных мер предосторожности", "correct": true },
+            { "text": "Воздушно-капельных мер", "correct": false },
+            { "text": "Контактных мер", "correct": false }
+          ],
+          "explanation": "Стандартные меры предосторожности применяются ко всем пациентам."
+        },
+        {
+          "question": "Маски N95 требуются при",
+          "options": [
+            { "text": "Контактных мерах", "correct": false },
+            { "text": "Капельных мерах", "correct": false },
+            { "text": "Воздушно-капельных мерах", "correct": true },
+            { "text": "Стандартных мерах", "correct": false }
+          ],
+          "explanation": "Используются для воздушно-капельных инфекций, например, туберкулеза."
+        },
+        {
+          "question": "Сегрегация биомедицинских отходов основана на",
+          "options": [
+            { "text": "Весе", "correct": false },
+            { "text": "Цветовой маркировке", "correct": true },
+            { "text": "Размере", "correct": false },
+            { "text": "Стоимости", "correct": false }
+          ],
+          "explanation": "Используются контейнеры с цветовой маркировкой."
+        }
+      ]
+    },
+
+    {
+      "title": "Разное и интегративная микробиология",
+      "mcqs": [
+        {
+          "question": "Нормальная флора приносит пользу, потому что",
+          "options": [
+            { "text": "Вызывает болезни", "correct": false },
+            { "text": "Предотвращает колонизацию патогенов", "correct": true },
+            { "text": "Вырабатывает токсины", "correct": false },
+            { "text": "Вызывает аллергию", "correct": false }
+          ],
+          "explanation": "Нормальная флора конкурирует с патогенами."
+        },
+        {
+          "question": "Оппортунистические инфекции происходят преимущественно у",
+          "options": [
+            { "text": "Здоровых людей", "correct": false },
+            { "text": "Иммунокомпрометированных пациентов", "correct": true },
+            { "text": "Только у детей", "correct": false },
+            { "text": "Только у пожилых", "correct": false }
+          ],
+          "explanation": "Низкий иммунитет предрасполагает к оппортунистическим инфекциям."
+        },
+        {
+          "question": "Нозокомиальные инфекции приобретаются от",
+          "options": [
+            { "text": "Сообщества", "correct": false },
+            { "text": "Больницы", "correct": true },
+            { "text": "Пищи", "correct": false },
+            { "text": "Воды", "correct": false }
+          ],
+          "explanation": "Нозокомиальные инфекции — это инфекции, приобретенные в больнице."
+        },
+        {
+          "question": "Биопленки проблематичны, потому что они",
+          "options": [
+            { "text": "Медленно растут", "correct": false },
+            { "text": "Устойчивы к антибиотикам", "correct": true },
+            { "text": "Легко удаляются", "correct": false },
+            { "text": "Не патогенны", "correct": false }
+          ],
+          "explanation": "Биопленки защищают бактерии от препаратов."
+        },
+        {
+          "question": "Кворум-сенсинг регулирует",
+          "options": [
+            { "text": "Деление клеток", "correct": false },
+            { "text": "Экспрессию генов в зависимости от плотности популяции", "correct": true },
+            { "text": "Только образование спор", "correct": false },
+            { "text": "Репликацию ДНК", "correct": false }
+          ],
+          "explanation": "Кворум-сенсинг зависит от плотности бактерий."
+        },
+        {
+          "question": "Эндотоксин состоит в основном из",
+          "options": [
+            { "text": "Белка", "correct": false },
+            { "text": "Липида A", "correct": true },
+            { "text": "Только полисахарида", "correct": false },
+            { "text": "ДНК", "correct": false }
+          ],
+          "explanation": "Липид A является токсической частью эндотоксина."
+        },
+        {
+          "question": "Экзотоксины обычно",
+          "options": [
+            { "text": "Термостабильны", "correct": false },
+            { "text": "Белковой природы", "correct": true },
+            { "text": "Слабо антигенны", "correct": false },
+            { "text": "Являются частью клеточной стенки", "correct": false }
+          ],
+          "explanation": "Экзотоксины — это белки."
+        },
+        {
+          "question": "Токсоидами пользуются для",
+          "options": [
+            { "text": "Диагностики", "correct": false },
+            { "text": "Вакцинации", "correct": true },
+            { "text": "Лечения", "correct": false },
+            { "text": "Стерилизации", "correct": false }
+          ],
+          "explanation": "Инактивированные токсины вызывают иммунитет."
+        },
+        {
+          "question": "Зоонозные болезни передаются от",
+          "options": [
+            { "text": "Человек", "correct": false },
+            { "text": "Животных", "correct": true },
+            { "text": "Почвы", "correct": false },
+            { "text": "Воды", "correct": false }
+          ],
+          "explanation": "Зоонозы передаются от животных человеку."
+        },
+        {
+          "question": "Инкубационный период — это время между",
+          "options": [
+            { "text": "Воздействием и диагностикой", "correct": false },
+            { "text": "Воздействием и появлением симптомов", "correct": true },
+            { "text": "Инфекцией и выздоровлением", "correct": false },
+            { "text": "Лечением и излечением", "correct": false }
+          ],
+          "explanation": "Это время до появления симптомов."
+        }
+      ]
+    }
+  ]
+}

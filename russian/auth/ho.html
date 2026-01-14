@@ -1,15 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>home</title>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/general.css">
-   <script src="https://cdn.tailwindcss.com"></script>
-
-
-   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Puto - Medical Student Education</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Progressive fade-in animation */
+    /* Progressive loading animation */
     .fade-in {
       opacity: 0;
       transform: translateY(30px);
@@ -20,55 +17,21 @@
       transform: translateY(0);
     }
   </style>
-
 </head>
-    
-<body>
-  <nav class="navbar">
-  <div class="logo">
-    <a href="#">  
-      <header style="text-align:center;">
-       <img src="assets/IMG-preview.png" alt="Logo" style="height:65px;">
-      </header>
-    </a>
-  </div>
- <!-- Language flags -->
-    <div class="lang-switch">
-      <a href="russian/main.html" title="Русский" class="lang-flag">
-        <img src="assets/russia.png" alt="Russian" width="32" height="32" loading="lazy" decoding="async">
-      </a>
-    </div>
+<body class="font-sans text-gray-800">
 
-  <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  <ul id="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="assets/about.html">About</a></li>
-    <li><a href="assets/contact.html">Contact</a></li>
-    <li><a href="assets/profile.html">Profile</a></li>
-    <li>
-      <div class="nav-buttons">
-        <a href="index.html" class="button-signin">Login</a>
-      </div>
-    </li>
-  </ul>
-</nav>
- 
-<!-- Hero Section -->
-  <section class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white py-24 px-6 pt-44 text-center fade-in">
+  <!-- Hero Section with gradient -->
+  <section class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white py-24 px-6 text-center fade-in">
     <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Dr Puto</h1>
     <p class="text-lg md:text-2xl mb-8">Your partner in preparing for USMLE, FMGE, Dubai, Qatar & Saudi medical exams</p>
     <a href="#courses" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">Explore Courses</a>
   </section>
 
-  <!-- About Section -->
+  <!-- About / Other Section with subtle gradient background -->
   <section class="py-20 px-6 text-center md:text-left max-w-6xl mx-auto fade-in bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl">
     <div class="md:flex md:items-center md:gap-12">
       <div class="md:w-1/2 mb-8 md:mb-0">
-        <img src="https://via.placeholder.com/500x300" alt="Medical Students" class="rounded shadow-lg">
+        <img src="../IMG-preview.png" alt="Medical Students" class="rounded shadow-lg">
       </div>
       <div class="md:w-1/2">
         <h2 class="text-3xl font-bold mb-4">Who We Are</h2>
@@ -78,7 +41,7 @@
     </div>
   </section>
 
-  <!-- Courses Section -->
+  <!-- Courses Section with gradient cards -->
   <section id="courses" class="py-20 px-6 text-center fade-in">
     <h2 class="text-3xl font-bold mb-12">Our Courses & Resources</h2>
     <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -97,53 +60,30 @@
     </div>
   </section>
 
-  <!-- Student Reviews & Community Interaction Section -->
+  <!-- Reviews Section with gradient background -->
   <section class="py-20 px-6 text-center fade-in bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
-    <h2 class="text-3xl font-bold mb-12">What Our Students Say & Community Activities</h2>
-
-    <!-- Review Carousel -->
-    <div class="relative max-w-4xl mx-auto overflow-hidden mb-12">
+    <h2 class="text-3xl font-bold mb-12">Student Reviews</h2>
+    <div class="relative max-w-4xl mx-auto overflow-hidden">
       <div id="reviewContainer" class="flex transition-transform duration-500">
         <div class="min-w-full p-6 bg-white rounded shadow">
-          <p class="italic mb-4">"Dr Puto helped me pass my FMGE with confidence. The Qbank and notes are excellent! The counseling and clinical guidance were a game-changer."</p>
+          <p class="italic mb-4">"Dr Puto helped me pass my FMGE with confidence. The Qbank and notes are excellent!"</p>
           <h4 class="font-semibold">— Anika S.</h4>
-          <p class="mt-2 text-sm text-gray-500">Academic improvement + Clinical skills</p>
         </div>
         <div class="min-w-full p-6 bg-white rounded shadow">
-          <p class="italic mb-4">"The research community exposure gave me real-world experience and connected me with experts. I also enjoyed the Sunday fun club events – learning was fun!"</p>
+          <p class="italic mb-4">"The counseling and meet-ups made my medical journey fun and guided."</p>
           <h4 class="font-semibold">— Rahul M.</h4>
-          <p class="mt-2 text-sm text-gray-500">Research & Community Engagement</p>
         </div>
         <div class="min-w-full p-6 bg-white rounded shadow">
-          <p class="italic mb-4">"Dr Puto’s meet-ups and educational conferences helped me improve academically and network with fellow students and mentors. Truly a full journey support!"</p>
+          <p class="italic mb-4">"Research community sessions gave me motivation and mentorship for my projects."</p>
           <h4 class="font-semibold">— Fatima K.</h4>
-          <p class="mt-2 text-sm text-gray-500">Networking + Academic Mentorship</p>
         </div>
       </div>
-
-      <!-- Carousel Controls -->
       <button id="prevReview" class="absolute left-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">‹</button>
       <button id="nextReview" class="absolute right-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">›</button>
     </div>
-
-    <!-- Community Interaction Highlights -->
-    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-left">
-      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-        <h3 class="font-semibold text-xl mb-2 text-blue-600">Research Exposure</h3>
-        <p>Engage in academic projects under the mentorship of medical experts to boost your research skills and understanding.</p>
-      </div>
-      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-        <h3 class="font-semibold text-xl mb-2 text-purple-600">Fun Club & Meet-Ups</h3>
-        <p>Participate in Sunday functions, educational conferences, and interactive meet-ups that combine learning with fun.</p>
-      </div>
-      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-        <h3 class="font-semibold text-xl mb-2 text-green-600">Academic Improvement</h3>
-        <p>Our QBank, clinical skill workshops, and mentorship programs help you achieve excellence in exams and practical knowledge.</p>
-      </div>
-    </div>
   </section>
 
-  <!-- FAQ Section -->
+  <!-- FAQ Section with gradient background -->
   <section id="faq" class="py-20 px-6 max-w-6xl mx-auto fade-in bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100 rounded-xl">
     <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
     <div class="space-y-4">
@@ -162,45 +102,18 @@
     </div>
   </section>
 
-  <!-- Affiliations Section -->
+  <!-- Affiliations Section with gradient -->
   <section class="py-20 px-6 text-center max-w-6xl mx-auto fade-in bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 rounded-xl">
     <h2 class="text-3xl font-bold mb-12">Our Affiliations & Partners</h2>
     <div class="flex flex-wrap justify-center items-center gap-8">
-      <img src="https://via.placeholder.com/150x80?text=Partner+1" alt="Partner 1" class="h-20 object-contain">
-      <img src="https://via.placeholder.com/150x80?text=Partner+2" alt="Partner 2" class="h-20 object-contain">
-      <img src="https://via.placeholder.com/150x80?text=Partner+3" alt="Partner 3" class="h-20 object-contain">
-      <img src="https://via.placeholder.com/150x80?text=Partner+4" alt="Partner 4" class="h-20 object-contain">
+      <img src="../IMG-preview.png" alt="Partner 1" class="h-20 object-contain">
+      <img src="../IMG-preview.png" alt="Partner 2" class="h-20 object-contain">
+      <img src="../IMG-preview.png" alt="Partner 3" class="h-20 object-contain">
+      <img src="../IMG-preview.png" alt="Partner 4" class="h-20 object-contain">
     </div>
   </section>
 
-
-
-
-
-
-
-<div class="scroller">
-  <div class="scroller-track">
-    <div class="scroller-item">Anatomy</div>
-    <div class="scroller-item">coming soon</div>
-    <div class="scroller-item">Biochemistry</div>
-    <div class="scroller-item">Physiology</div>
-    <div class="scroller-item">coming soon</div>
-    <div class="scroller-item">pathology</div>
-
-    <!-- duplicate for seamless scroll -->
-    <div class="scroller-item">Anatomy</div>
-    <div class="scroller-item">coming soon</div>
-    <div class="scroller-item">Biochemistry</div>
-    <div class="scroller-item">Physiology</div>
-    <div class="scroller-item">coming soon</div>
-    <div class="scroller-item">pathology</div>
-  </div>
-</div>
-
-
-
-  <!-- Footer Section -->
+  <!-- Footer Section with gradient -->
   <footer class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white py-12 px-6 fade-in">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
       <div>
@@ -257,39 +170,5 @@
     });
   </script>
 
-
-<!-- Bottom nav here -->
-<div class="bottom-nav">
-  <a href="main.html" class="nav-item" data-page="main">
-    <img src="icons/home.png" data-inactive="icons/home.png" data-active="icons/homeactive.png">
-    <span>Home</span>
-    <div class="indicator"></div>
-  </a>
-
-  <a href="q-bank.html" class="nav-item" data-page="q-bank">
-    <img src="icons/search.png" data-inactive="icons/search.png" data-active="icons/searchactive.png">
-    <span>QBank</span>
-    <div class="indicator"></div>
-  </a>
-
-  <a href="notes.html" class="nav-item" data-page="notes">
-    <img src="icons/tests.png" data-inactive="icons/tests.png" data-active="icons/testsactive.png">
-    <span>Notes</span>
-    <div class="indicator"></div>
-  </a>
-
-  <a href="lectures.html" class="nav-item" data-page="lectures">
-    <img src="icons/video.png" data-inactive="icons/video.png" data-active="icons/videoactive.png">
-    <span>Videos</span>
-    <div class="indicator"></div>
-  </a>
-</div>
-
-<script src="script/navbottom.js" defer></script>
-<script src="script/general.js" defer></script>
-
-
-
-
-</body> 
+</body>
 </html>

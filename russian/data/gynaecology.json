@@ -1,0 +1,321 @@
+{
+  "title": "Gynaecology",
+  "topics": [
+    {
+      "title": "Applied Anatomy & Surgery",
+      "mcqs": [
+        {
+          "question": "Uterine artery is a branch of",
+          "options": [
+            { "text": "Internal iliac artery", "correct": true },
+            { "text": "External iliac artery", "correct": false },
+            { "text": "Ovarian artery", "correct": false },
+            { "text": "Femoral artery", "correct": false }
+          ],
+          "explanation": "Uterine artery arises from the internal iliac artery."
+        },
+        {
+          "question": "Fallopian tube segments include",
+          "options": [
+            { "text": "Infundibulum, ampulla, isthmus, interstitial", "correct": true },
+            { "text": "Fundus, body, cervix", "correct": false },
+            { "text": "Ovary, fimbriae, infundibulum", "correct": false },
+            { "text": "Endometrium, myometrium, perimetrium", "correct": false }
+          ],
+          "explanation": "Four segments make the fallopian tube."
+        },
+        {
+          "question": "Cervix is mainly composed of",
+          "options": [
+            { "text": "Fibrous and muscular tissue", "correct": true },
+            { "text": "Cartilage", "correct": false },
+            { "text": "Bone", "correct": false },
+            { "text": "Adipose tissue", "correct": false }
+          ],
+          "explanation": "Cervix has dense connective tissue and smooth muscle."
+        },
+        {
+          "question": "Most common type of hysterectomy is",
+          "options": [
+            { "text": "Total abdominal hysterectomy", "correct": true },
+            { "text": "Subtotal hysterectomy", "correct": false },
+            { "text": "Radical hysterectomy", "correct": false },
+            { "text": "Laparoscopic oophorectomy", "correct": false }
+          ],
+          "explanation": "Total abdominal hysterectomy is most frequently performed."
+        },
+        {
+          "question": "External female genitalia includes",
+          "options": [
+            { "text": "Labia majora, labia minora, clitoris, vestibule", "correct": true },
+            { "text": "Vagina only", "correct": false },
+            { "text": "Uterus and cervix", "correct": false },
+            { "text": "Ovaries", "correct": false }
+          ],
+          "explanation": "These form the vulva."
+        },
+        {
+          "question": "Uterus is positioned between",
+          "options": [
+            { "text": "Bladder and rectum", "correct": true },
+            { "text": "Kidneys", "correct": false },
+            { "text": "Ovaries only", "correct": false },
+            { "text": "Iliac vessels", "correct": false }
+          ],
+          "explanation": "Uterus is retroperitoneal and anteverted over the bladder."
+        },
+        {
+          "question": "Ovary attaches to uterus via",
+          "options": [
+            { "text": "Ovarian ligament", "correct": true },
+            { "text": "Round ligament", "correct": false },
+            { "text": "Suspensory ligament", "correct": false },
+            { "text": "Broad ligament", "correct": false }
+          ],
+          "explanation": "Ovarian ligament connects ovary to lateral uterus."
+        },
+        {
+          "question": "Round ligament passes through",
+          "options": [
+            { "text": "Inguinal canal", "correct": true },
+            { "text": "Obturator canal", "correct": false },
+            { "text": "Greater sciatic foramen", "correct": false },
+            { "text": "Pelvic diaphragm", "correct": false }
+          ],
+          "explanation": "Round ligament maintains anteversion."
+        },
+        {
+          "question": "Broad ligament encloses",
+          "options": [
+            { "text": "Uterine tubes, ovaries, vessels", "correct": true },
+            { "text": "Urethra", "correct": false },
+            { "text": "Rectum", "correct": false },
+            { "text": "Bladder only", "correct": false }
+          ],
+          "explanation": "Broad ligament is a double peritoneal fold."
+        },
+        {
+          "question": "Suspensory ligament contains",
+          "options": [
+            { "text": "Ovarian vessels", "correct": true },
+            { "text": "Uterine vessels", "correct": false },
+            { "text": "Round ligament", "correct": false },
+            { "text": "Ureter only", "correct": false }
+          ],
+          "explanation": "Suspensory ligament carries ovarian artery and vein."
+        }
+      ]
+    },
+    {
+      "title": "Gynaecological Cancers",
+      "mcqs": [
+        {
+          "question": "Most common site for vulval cancer",
+          "options": [
+            { "text": "Labia majora", "correct": true },
+            { "text": "Labia minora", "correct": false },
+            { "text": "Clitoris", "correct": false },
+            { "text": "Vagina", "correct": false }
+          ],
+          "explanation": "Labia majora is the most frequent site."
+        },
+        {
+          "question": "Risk factor for vulval cancer includes",
+          "options": [
+            { "text": "HPV infection", "correct": true },
+            { "text": "PCOS", "correct": false },
+            { "text": "Endometriosis", "correct": false },
+            { "text": "Menopause alone", "correct": false }
+          ],
+          "explanation": "HPV 16/18 is a key risk factor."
+        },
+        {
+          "question": "Squamous cell carcinoma is",
+          "options": [
+            { "text": "Most common vulval malignancy", "correct": true },
+            { "text": "Most common ovarian malignancy", "correct": false },
+            { "text": "Benign", "correct": false },
+            { "text": "Rare", "correct": false }
+          ],
+          "explanation": "SCC accounts for majority of vulval cancers."
+        },
+        {
+          "question": "Common presentation of vulval cancer",
+          "options": [
+            { "text": "Itching, ulceration, mass", "correct": true },
+            { "text": "Infertility", "correct": false },
+            { "text": "Abdominal pain only", "correct": false },
+            { "text": "Menorrhagia only", "correct": false }
+          ],
+          "explanation": "Symptoms are local and dermatological."
+        },
+        {
+          "question": "Diagnosis of vulval cancer is by",
+          "options": [
+            { "text": "Biopsy", "correct": true },
+            { "text": "Pap smear", "correct": false },
+            { "text": "Ultrasound", "correct": false },
+            { "text": "HSG", "correct": false }
+          ],
+          "explanation": "Histopathology confirms diagnosis."
+        },
+        {
+          "question": "Lymphatic spread commonly involves",
+          "options": [
+            { "text": "Inguinal nodes", "correct": true },
+            { "text": "Para-aortic nodes", "correct": false },
+            { "text": "Axillary nodes", "correct": false },
+            { "text": "Cervical nodes", "correct": false }
+          ],
+          "explanation": "Vulval lymph drains to superficial inguinal nodes."
+        },
+        {
+          "question": "Treatment of vulval cancer often includes",
+          "options": [
+            { "text": "Surgery and radiotherapy", "correct": true },
+            { "text": "Hysteroscopy only", "correct": false },
+            { "text": "Hormone therapy alone", "correct": false },
+            { "text": "Observation only", "correct": false }
+          ],
+          "explanation": "Surgery is mainstay; adjuvant RT may be required."
+        },
+        {
+          "question": "Precancerous lesion of vulva is",
+          "options": [
+            { "text": "VIN (Vulvar intraepithelial neoplasia)", "correct": true },
+            { "text": "Endometriosis", "correct": false },
+            { "text": "Polyp", "correct": false },
+            { "text": "Leiomyoma", "correct": false }
+          ],
+          "explanation": "VIN precedes invasive SCC."
+        },
+        {
+          "question": "Common age group affected",
+          "options": [
+            { "text": "60–70 years", "correct": true },
+            { "text": "20–30 years", "correct": false },
+            { "text": "40–50 years", "correct": false },
+            { "text": "Below 20", "correct": false }
+          ],
+          "explanation": "Mostly postmenopausal women."
+        },
+        {
+          "question": "HPV vaccine helps prevent",
+          "options": [
+            { "text": "Vulval and cervical cancers", "correct": true },
+            { "text": "Ovarian cysts", "correct": false },
+            { "text": "Endometriosis", "correct": false },
+            { "text": "Fibroids", "correct": false }
+          ],
+          "explanation": "Vaccination reduces HPV-related malignancies."
+        }
+      ]
+    },
+
+    {
+      "title": "Investigations & Imaging",
+      "mcqs": [
+        {
+          "question": "Hysteroscopy is used to",
+          "options": [
+            { "text": "Visualize uterine cavity", "correct": true },
+            { "text": "Visualize ovaries", "correct": false },
+            { "text": "Visualize fallopian tubes only", "correct": false },
+            { "text": "Biopsy vagina only", "correct": false }
+          ],
+          "explanation": "Endoscopic inspection allows diagnosis and treatment."
+        },
+        {
+          "question": "HSG stands for",
+          "options": [
+            { "text": "Hysterosalpingography", "correct": true },
+            { "text": "High-speed gynecology", "correct": false },
+            { "text": "Hypothalamic stimulation guide", "correct": false },
+            { "text": "Hormonal screening", "correct": false }
+          ],
+          "explanation": "HSG is a radiographic test of uterine cavity and tubes."
+        },
+        {
+          "question": "HSG helps to detect",
+          "options": [
+            { "text": "Tubal patency, uterine anomalies", "correct": true },
+            { "text": "Ovarian cysts only", "correct": false },
+            { "text": "Cervical cancer", "correct": false },
+            { "text": "Vulval cancer", "correct": false }
+          ],
+          "explanation": "Used in infertility workup."
+        },
+        {
+          "question": "Contraindication to hysteroscopy",
+          "options": [
+            { "text": "Active pelvic infection", "correct": true },
+            { "text": "Fibroid", "correct": false },
+            { "text": "Polyp", "correct": false },
+            { "text": "Amenorrhoea", "correct": false }
+          ],
+          "explanation": "Procedure can worsen infection."
+        },
+        {
+          "question": "Saline infusion sonography is used for",
+          "options": [
+            { "text": "Uterine cavity assessment", "correct": true },
+            { "text": "Ovarian torsion only", "correct": false },
+            { "text": "Cervical canal", "correct": false },
+            { "text": "Vulval lesion", "correct": false }
+          ],
+          "explanation": "Enhanced imaging of endometrium and cavity."
+        },
+        {
+          "question": "Endometrial biopsy is indicated in",
+          "options": [
+            { "text": "Atypical uterine bleeding", "correct": true },
+            { "text": "Normal menses", "correct": false },
+            { "text": "PCOS only", "correct": false },
+            { "text": "Vulval itching", "correct": false }
+          ],
+          "explanation": "To rule out hyperplasia or malignancy."
+        },
+        {
+          "question": "HSG uses",
+          "options": [
+            { "text": "Contrast dye and X-ray", "correct": true },
+            { "text": "MRI only", "correct": false },
+            { "text": "Ultrasound only", "correct": false },
+            { "text": "CT scan only", "correct": false }
+          ],
+          "explanation": "Radiopaque contrast visualizes cavity and tubes."
+        },
+        {
+          "question": "Hysteroscopy allows",
+          "options": [
+            { "text": "Direct visualization and biopsy", "correct": true },
+            { "text": "CT imaging", "correct": false },
+            { "text": "MRI visualization", "correct": false },
+            { "text": "Laparoscopy only", "correct": false }
+          ],
+          "explanation": "Both diagnostic and operative uses."
+        },
+        {
+          "question": "Sonohysterography enhances",
+          "options": [
+            { "text": "Endometrial visualization", "correct": true },
+            { "text": "Fallopian tube patency", "correct": false },
+            { "text": "Ovarian follicles only", "correct": false },
+            { "text": "Cervical canal", "correct": false }
+          ],
+          "explanation": "Fluid distends cavity for better imaging."
+        },
+        {
+          "question": "MRI in gynaecology is useful for",
+          "options": [
+            { "text": "Soft tissue characterization", "correct": true },
+            { "text": "Tubal patency", "correct": false },
+            { "text": "Contrast X-ray", "correct": false },
+            { "text": "Biopsy guidance only", "correct": false }
+          ],
+          "explanation": "MRI shows myometrium, endometrium, ovaries clearly."
+        }
+      ]
+    }
+  ]
+}

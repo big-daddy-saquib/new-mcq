@@ -1,0 +1,7 @@
+[
+  { "id": "mi", "title": "Инфаркт миокарда" },
+  { "id": "angina", "title": "Стенокардия" },
+  { "id": "heart-failure", "title": "Сердечная недостаточность" },
+  { "id": "arrhythmia", "title": "Аритмии" },
+  { "id": "hypertension", "title": "Гипертония" }
+]

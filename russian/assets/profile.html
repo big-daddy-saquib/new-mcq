@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile | Dr. Pluto</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+:root {
+  --primary: #2563eb;
+  --danger: #ef4444;
+  --dark: #0f172a;
+  --gray: #64748b;
+}
+
+/* ---- same styling as before (unchanged) ---- */
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Segoe UI",sans-serif}
+body{background:linear-gradient(135deg,#eef2ff,#fff);color:var(--dark)}
+header{position:sticky;top:0;z-index:999;background:white;padding:16px 40px;display:flex;align-items:center;gap:15px;box-shadow:0 6px 20px rgba(0,0,0,0.05)}
+header a.logo{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit}
+header img{height:46px}
+nav{margin-left:auto;display:flex;gap:10px}
+nav a,nav button{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:12px;font-weight:600;border:none;cursor:pointer;text-decoration:none;color:white}
+.home-btn{background:var(--primary)}
+.logout-btn{background:var(--danger)}
+.page{padding-top:90px;max-width:900px;margin:auto}
+.card{background:white;border-radius:18px;padding:40px;box-shadow:0 20px 45px rgba(0,0,0,0.08)}
+label{font-weight:600;margin-bottom:6px;display:block}
+input,select{width:100%;padding:12px;border-radius:10px;border:1px solid #cbd5f5}
+form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+form button{grid-column:1/-1;padding:14px;border-radius:12px;border:none;background:var(--primary);color:white;font-size:1rem}
+@media(max-width:700px){form{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a href="../main.html" class="logo">
+    <img src="../auth/logo.png">
+    <h1></h1>
+  </a>
+
+  <nav>
+    <a href="../main.html" class="home-btn">
+      <i class="fas fa-house"></i>
+    </a>
+    <button class="logout-btn" onclick="logout()">
+      <i class="fas fa-right-from-bracket"></i> Logout
+    </button>
+  </nav>
+</header>
+
+<div class="page">
+  <div class="card">
+    <h2 style="margin-bottom:25px">My Profile</h2>
+
+    <form id="profileForm">
+      <div>
+        <label>Full Name</label>
+        <input type="text" id="name">
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" id="email" disabled>
+      </div>
+
+      <div>
+        <label>Phone</label>
+        <input type="tel" id="phone">
+      </div>
+
+      <div>
+        <label>Country</label>
+        <input type="text" id="country">
+      </div>
+
+      <div>
+        <label>Target Exam</label>
+        <select id="exam">
+          <option>USMLE</option>
+          <option>FMGE</option>
+          <option>PLAB</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Current Level</label>
+        <select id="level">
+          <option>Pre Medical</option>
+          <option>Medical Student</option>
+          <option>Graduate</option>
+        </select>
+      </div>
+
+      <button type="submit">
+        <i class="fas fa-save"></i> Save Changes
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Firebase SDK -->
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+/* Firebase config */
+const firebaseConfig = {
+  apiKey: "AIzaSyBdP_r0wK6jqpd-tGkx5w5SS1mHl5pbynA",
+  authDomain: "justspeak-eng.firebaseapp.com",
+  projectId: "justspeak-eng",
+  storageBucket: "justspeak-eng.firebasestorage.app",
+  messagingSenderId: "175267331806",
+  appId: "1:175267331806:web:6fdfce0e92048aef19cc4f",
+  measurementId: "G-VXF34PYFK3"
+};
+
+/* Init */
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+/* Elements */
+const form = document.getElementById("profileForm");
+const nameEl = document.getElementById("name");
+const emailEl = document.getElementById("email");
+const phoneEl = document.getElementById("phone");
+const countryEl = document.getElementById("country");
+const examEl = document.getElementById("exam");
+const levelEl = document.getElementById("level");
+
+/* Auth check */
+onAuthStateChanged(auth, async user => {
+  if (!user) {
+    window.location.href = "login.html";
+    return;
+  }
+
+  emailEl.value = user.email;
+
+  const ref = doc(db, "users", user.uid);
+  const snap = await getDoc(ref);
+
+  if (snap.exists()) {
+    const data = snap.data();
+    nameEl.value = data.name || "";
+    phoneEl.value = data.phone || "";
+    countryEl.value = data.country || "";
+    examEl.value = data.exam || "USMLE";
+    levelEl.value = data.level || "Medical Student";
+  }
+});
+
+/* Save profile */
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+
+  const user = auth.currentUser;
+  if (!user) return;
+
+  await setDoc(doc(db, "users", user.uid), {
+    name: nameEl.value,
+    phone: phoneEl.value,
+    country: countryEl.value,
+    exam: examEl.value,
+    level: levelEl.value,
+    email: user.email,
+    updatedAt: new Date()
+  }, { merge: true });
+
+  alert("Profile updated successfully");
+});
+
+/* Logout */
+window.logout = async () => {
+  await signOut(auth);
+  window.location.href = "../index.html";
+};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+{
+  "title": "Физиология",
+  "topics": [
+    {
+      "title": "Гомеостаз и клеточная физиология",
+      "mcqs": [
+        {
+          "question": "Гомеостаз означает",
+          "options": [
+            { "text": "Постоянная внешняя среда", "correct": false },
+            { "text": "Поддержание внутренней среды", "correct": true },
+            { "text": "Деление клеток", "correct": false },
+            { "text": "Производство энергии", "correct": false }
+          ],
+          "explanation": "Гомеостаз поддерживает стабильную внутреннюю среду организма."
+        },
+        {
+          "question": "Центр контроля гомеостаза обычно находится в",
+          "options": [
+            { "text": "Рецепторе", "correct": false },
+            { "text": "Эффекторе", "correct": false },
+            { "text": "Центральной нервной системе", "correct": true },
+            { "text": "Периферических тканях", "correct": false }
+          ],
+          "explanation": "ЦНС интегрирует сигналы и координирует ответы."
+        },
+        {
+          "question": "Негативная обратная связь характеризуется",
+          "options": [
+            { "text": "Усилением реакции", "correct": false },
+            { "text": "Противодействием исходному изменению", "correct": true },
+            { "text": "Отсутствием механизма контроля", "correct": false },
+            { "text": "Гормональным всплеском", "correct": false }
+          ],
+          "explanation": "Негативная обратная связь восстанавливает нормальное значение."
+        },
+        {
+          "question": "Пример положительной обратной связи",
+          "options": [
+            { "text": "Регуляция температуры тела", "correct": false },
+            { "text": "Регуляция уровня глюкозы", "correct": false },
+            { "text": "Роды", "correct": true },
+            { "text": "Осморегуляция", "correct": false }
+          ],
+          "explanation": "Выброс окситоцина во время родов — пример положительной обратной связи."
+        },
+        {
+          "question": "Внутриклеточная жидкость составляет примерно",
+          "options": [
+            { "text": "Одна треть воды организма", "correct": false },
+            { "text": "Две трети воды организма", "correct": true },
+            { "text": "Одна четверть воды организма", "correct": false },
+            { "text": "Половину воды организма", "correct": false }
+          ],
+          "explanation": "Внутриклеточная жидкость составляет около двух третей от общей воды организма."
+        },
+        {
+          "question": "Клеточная мембрана в основном состоит из",
+          "options": [
+            { "text": "Только белков", "correct": false },
+            { "text": "Фосфолипидного бислоя", "correct": true },
+            { "text": "Углеводов", "correct": false },
+            { "text": "Только холестерина", "correct": false }
+          ],
+          "explanation": "Фосфолипиды формируют основную структуру мембраны."
+        },
+        {
+          "question": "Большинство ферментов клеток расположено в",
+          "options": [
+            { "text": "Ядре", "correct": false },
+            { "text": "Цитоплазме", "correct": true },
+            { "text": "Митохондриях", "correct": false },
+            { "text": "Клеточной мембране", "correct": false }
+          ],
+          "explanation": "Большинство метаболических реакций происходит в цитоплазме."
+        },
+        {
+          "question": "Основная функция митохондрий",
+          "options": [
+            { "text": "Синтез белка", "correct": false },
+            { "text": "Производство АТФ", "correct": true },
+            { "text": "Хранение липидов", "correct": false },
+            { "text": "Репликация ДНК", "correct": false }
+          ],
+          "explanation": "Митохондрии генерируют АТФ."
+        },
+        {
+          "question": "Лизосомы участвуют в",
+          "options": [
+            { "text": "Производстве энергии", "correct": false },
+            { "text": "Внутриклеточном переваривании", "correct": true },
+            { "text": "Синтезе белка", "correct": false },
+            { "text": "Транспорт ионов", "correct": false }
+          ],
+          "explanation": "Лизосомы содержат пищеварительные ферменты."
+        },
+        {
+          "question": "Рибосомы отвечают за",
+          "options": [
+            { "text": "Синтез ДНК", "correct": false },
+            { "text": "Синтез белка", "correct": true },
+            { "text": "Синтез липидов", "correct": false },
+            { "text": "Генерацию АТФ", "correct": false }
+          ],
+          "explanation": "Белки синтезируются на рибосомах."
+        }
+      ]
+    },
+
+    {
+      "title": "Клеточные посредники и рецепторы",
+      "mcqs": [
+        {
+          "question": "Первым мессенджером называют",
+          "options": [
+            { "text": "cAMP", "correct": false },
+            { "text": "Гормон", "correct": true },
+            { "text": "Кальций", "correct": false },
+            { "text": "АТФ", "correct": false }
+          ],
+          "explanation": "Гормон действует как первый мессенджер."
+        },
+        {
+          "question": "Пример второго мессенджера",
+          "options": [
+            { "text": "Инсулин", "correct": false },
+            { "text": "cAMP", "correct": true },
+            { "text": "Тироксин", "correct": false },
+            { "text": "Кортизол", "correct": false }
+          ],
+          "explanation": "cAMP передает сигналы внутри клетки."
+        },
+        {
+          "question": "Рецепторы стероидных гормонов расположены в",
+          "options": [
+            { "text": "Клеточной мембране", "correct": false },
+            { "text": "Цитоплазме или ядре", "correct": true },
+            { "text": "Митохондриях", "correct": false },
+            { "text": "Аппарате Гольджи", "correct": false }
+          ],
+          "explanation": "Стероидные гормоны легко проходят через мембраны."
+        },
+        {
+          "question": "GPCR активируют",
+          "options": [
+            { "text": "Только ионные каналы", "correct": false },
+            { "text": "Пути второго мессенджера", "correct": true },
+            { "text": "Прямую транскрипцию ДНК", "correct": false },
+            { "text": "Только синтез белка", "correct": false }
+          ],
+          "explanation": "G-белок-связанные рецепторы действуют через вторичные мессенджеры."
+        },
+        {
+          "question": "IP3 в основном вызывает выброс",
+          "options": [
+            { "text": "Натрия", "correct": false },
+            { "text": "Кальция из ЭПР", "correct": true },
+            { "text": "Калия", "correct": false },
+            { "text": "Хлора", "correct": false }
+          ],
+          "explanation": "IP3 высвобождает кальций из эндоплазматического ретикулума."
+        },
+        {
+          "question": "Рецепторы тирозинкиназ используют",
+          "options": [
+            { "text": "Инсулин", "correct": true },
+            { "text": "Адреналин", "correct": false },
+            { "text": "Гистамин", "correct": false },
+            { "text": "Ацетилхолин", "correct": false }
+          ],
+          "explanation": "Инсулин действует через рецептор тирозинкиназы."
+        },
+        {
+          "question": "Дау́нрегуляция рецепторов происходит из-за",
+          "options": [
+            { "text": "Низкого уровня гормона", "correct": false },
+            { "text": "Длительного воздействия гормона", "correct": true },
+            { "text": "Мутации рецептора", "correct": false },
+            { "text": "Недостатка второго мессенджера", "correct": false }
+          ],
+          "explanation": "Хроническое воздействие снижает количество рецепторов."
+        },
+        {
+          "question": "Аутокринная сигнализация действует на",
+          "options": [
+            { "text": "Соседние клетки", "correct": false },
+            { "text": "Ту же самую клетку", "correct": true },
+            { "text": "Удаленные органы", "correct": false },
+            { "text": "Только нервную систему", "correct": false }
+          ],
+          "explanation": "Аутокринные сигналы действуют на саму клетку."
+        },
+        {
+          "question": "Паракринная сигнализация действует на",
+          "options": [
+            { "text": "Ту же самую клетку", "correct": false },
+            { "text": "Ближайшие клетки", "correct": true },
+            { "text": "Кровоток", "correct": false },
+            { "text": "Эндокринные железы", "correct": false }
+          ],
+          "explanation": "Паракринная сигнализация влияет на соседние клетки."
+        },
+        {
+          "question": "Эндокринная сигнализация включает",
+          "options": [
+            { "text": "Локальную диффузию", "correct": false },
+            { "text": "Транспорт через кровь", "correct": true },
+            { "text": "Синаптическую щель", "correct": false },
+            { "text": "Соединения щелей", "correct": false }
+          ],
+          "explanation": "Гормоны перемещаются через кровоток."
+        }
+      ]
+    },
+
+    {
+      "title": "Транспорт через клеточную мембрану",
+      "mcqs": [
+        {
+          "question": "Пассивный транспорт не требует",
+          "options": [
+            { "text": "Белка-переносчика", "correct": false },
+            { "text": "Энергии", "correct": true },
+            { "text": "Градиента концентрации", "correct": false },
+            { "text": "Мембраны", "correct": false }
+          ],
+          "explanation": "Пассивный транспорт происходит без АТФ."
+        },
+        {
+          "question": "Фасилитированная диффузия требует",
+          "options": [
+            { "text": "АТФ", "correct": false },
+            { "text": "Белка-переносчика", "correct": true },
+            { "text": "Движения против градиента", "correct": false },
+            { "text": "Везикул", "correct": false }
+          ],
+          "explanation": "Белки-переносчики помогают диффузии."
+        },
+        {
+          "question": "Активный транспорт перемещает вещества",
+          "options": [
+            { "text": "По градиенту концентрации", "correct": false },
+            { "text": "Против градиента концентрации", "correct": true },
+            { "text": "Без энергии", "correct": false },
+            { "text": "Только через поры", "correct": false }
+          ],
+          "explanation": "Для перемещения против градиента требуется энергия."
+        },
+        {
+          "question": "Натрий-калиевый насос обменивает",
+          "options": [
+            { "text": "2 Na наружу, 3 K внутрь", "correct": false },
+            { "text": "3 Na наружу, 2 K внутрь", "correct": true },
+            { "text": "1 Na наружу, 1 K внутрь", "correct": false },
+            { "text": "2 Na внутрь, 2 K наружу", "correct": false }
+          ],
+          "explanation": "Na K ATPase поддерживает ионные градиенты."
+        },
+        {
+          "question": "Осмос — это движение",
+          "options": [
+            { "text": "Растворителя", "correct": false },
+            { "text": "Воды", "correct": true },
+            { "text": "Ионов", "correct": false },
+            { "text": "Белков", "correct": false }
+          ],
+          "explanation": "Вода перемещается через полупроницаемую мембрану."
+        },
+        {
+          "question": "Эндоцитоз включает",
+          "options": [
+            { "text": "Диффузию", "correct": false },
+            { "text": "Формирование везикул", "correct": true },
+            { "text": "Ионные каналы", "correct": false },
+            { "text": "Белки-переносчики", "correct": false }
+          ],
+          "explanation": "Клетка захватывает материал с помощью везикул."
+        },
+        {
+          "question": "Фагоцитоз выполняют главным образом",
+          "options": [
+            { "text": "Эритроциты", "correct": false },
+            { "text": "Макрофаги", "correct": true },
+            { "text": "Тромбоциты", "correct": false },
+            { "text": "Нейроны", "correct": false }
+          ],
+          "explanation": "Макрофаги захватывают крупные частицы."
+        },
+        {
+          "question": "Пиноцитоз — это захват",
+          "options": [
+            { "text": "Твердых частиц", "correct": false },
+            { "text": "Жидкостей", "correct": true },
+            { "text": "Газов", "correct": false },
+            { "text": "Ионов", "correct": false }
+          ],
+          "explanation": "Пиноцитоз — это «питье» клетки."
+        },
+        {
+          "question": "Вторичный активный транспорт зависит от",
+          "options": [
+            { "text": "Прямого АТФ", "correct": false },
+            { "text": "Ионного градиента", "correct": true },
+            { "text": "Везикул", "correct": false },
+            { "text": "Только диффузии", "correct": false }
+          ],
+          "explanation": "Использует градиент, созданный первичным активным транспортом."
+        },
+        {
+          "question": "Антипорт транспорт означает",
+          "options": [
+            { "text": "Движение в одном направлении", "correct": false },
+            { "text": "Движение в противоположных направлениях", "correct": true },
+            { "text": "Отсутствие движения", "correct": false },
+            { "text": "Пассивный транспорт", "correct": false }
+          ],
+          "explanation": "Антипорт перемещает вещества в противоположных направлениях."
+        }
+      ]
+    },
+
+    {
+      "title": "Мембранный потенциал и жидкости организма",
+      "mcqs": [
+        {
+          "question": "Потенциал покоя нейрона примерно",
+          "options": [
+            { "text": "+30 мВ", "correct": false },
+            { "text": "-70 мВ", "correct": true },
+            { "text": "0 мВ", "correct": false },
+            { "text": "-30 мВ", "correct": false }
+          ],
+          "explanation": "У нейронов потенциал покоя около -70 мВ."
+        },
+        {
+          "question": "Основной внутриклеточный катион",
+          "options": [
+            { "text": "Натрий", "correct": false },
+            { "text": "Калий", "correct": true },
+            { "text": "Кальций", "correct": false },
+            { "text": "Хлор", "correct": false }
+          ],
+          "explanation": "Калий высок внутри клеток."
+        },
+        {
+          "question": "Деполяризация происходит из-за притока",
+          "options": [
+            { "text": "Калия", "correct": false },
+            { "text": "Натрия", "correct": true },
+            { "text": "Хлора", "correct": false },
+            { "text": "Только кальция", "correct": false }
+          ],
+          "explanation": "Вход натрия снижает отрицательный заряд."
+        },
+        {
+          "question": "Реполяризация вызвана",
+          "options": [
+            { "text": "Входом натрия", "correct": false },
+            { "text": "Выходом калия", "correct": true },
+            { "text": "Входом кальция", "correct": false },
+            { "text": "Входом хлора", "correct": false }
+          ],
+          "explanation": "Выход калия восстанавливает отрицательный заряд."
+        },
+        {
+          "question": "Абсолютный рефрактерный период связан с",
+          "options": [
+            { "text": "Открытыми натриевыми каналами", "correct": false },
+            { "text": "Инактивированными натриевыми каналами", "correct": true },
+            { "text": "Открытыми калиевыми каналами", "correct": false },
+            { "text": "Движением хлора", "correct": false }
+          ],
+          "explanation": "Натриевые каналы не могут снова открыться."
+        },
+        {
+          "question": "Общее количество воды в организме примерно",
+          "options": [
+            { "text": "40% массы тела", "correct": false },
+            { "text": "60% массы тела", "correct": true },
+            { "text": "80% массы тела", "correct": false },
+            { "text": "30% массы тела", "correct": false }
+          ],
+          "explanation": "У взрослого человека вода составляет около 60% массы тела."
+        },
+        {
+          "question": "Внеклеточная жидкость включает",
+          "options": [
+            { "text": "Внутриклеточную жидкость", "correct": false },
+            { "text": "Плазму и интерстициальную жидкость", "correct": true },
+            { "text": "Только спинномозговую жидкость", "correct": false },
+            { "text": "Мочу", "correct": false }
+          ],
+          "explanation": "Внеклеточная жидкость включает плазму и интерстициальную жидкость."
+        },
+        {
+          "question": "Основной внеклеточный катион",
+          "options": [
+            { "text": "Калий", "correct": false },
+            { "text": "Натрий", "correct": true },
+            { "text": "Кальций", "correct": false },
+            { "text": "Магний", "correct": false }
+          ],
+          "explanation": "Натрий преобладает во внеклеточной жидкости."
+        },
+        {
+          "question": "Осмолярность плазмы примерно",
+          "options": [
+            { "text": "150 мОсм/л", "correct": false },
+            { "text": "300 мОсм/л", "correct": true },
+            { "text": "450 мОсм/л", "correct": false },
+            { "text": "600 мОсм/л", "correct": false }
+          ],
+          "explanation": "Нормальная осмолярность плазмы около 300 мОсм/л."
+        },
+        {
+          "question": "Отёк возникает из-за дисбаланса",
+          "options": [
+            { "text": "Только электролитов", "correct": false },
+            { "text": "Сил Старлинга", "correct": true },
+            { "text": "Мембранного потенциала", "correct": false },
+            { "text": "Потенциала действия", "correct": false }
+          ],
+          "explanation": "Перемещение жидкости зависит от сил Старлинга."
+        }
+      ]
+    }
+  ]
+}

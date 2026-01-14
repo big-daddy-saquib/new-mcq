@@ -1,0 +1,47 @@
+{
+  "title": "Anatomy",
+  "topics": [
+    {
+      "title": "Bones of Upper Limb",
+      "mcqs": [
+        {
+          "question": "Which bone is the longest in the upper limb?",
+          "image": "images/upper_limb.jpg",
+          "options": [
+            { "text": "Humerus", "correct": true },
+            { "text": "Radius", "correct": false },
+            { "text": "Ulna", "correct": false },
+            { "text": "Scapula", "correct": false }
+          ],
+          "explanation": "Humerus is the longest bone in the upper limb."
+        },
+        {
+          "question": "Identify this bone:",
+          "image": "images/scapula.jpg",
+          "options": [
+            { "image": "images/scapula_option1.jpg", "text": "Scapula", "correct": true },
+            { "image": "images/scapula_option2.jpg", "text": "Clavicle", "correct": false },
+            { "image": "images/scapula_option3.jpg", "text": "Humerus", "correct": false },
+            { "image": "images/scapula_option4.jpg", "text": "Radius", "correct": false }
+          ],
+          "explanation": "The scapula is a flat triangular bone located on the posterior side of the shoulder."
+        }
+      ]
+    },
+    {
+      "title": "Skull Anatomy",
+      "mcqs": [
+        {
+          "question": "Which bone forms the forehead?",
+          "options": [
+            { "text": "Frontal bone", "correct": true },
+            { "text": "Parietal bone", "correct": false },
+            { "text": "Temporal bone", "correct": false },
+            { "text": "Occipital bone", "correct": false }
+          ],
+          "explanation": "The frontal bone forms the forehead."
+        }
+      ]
+    }
+  ]
+}
